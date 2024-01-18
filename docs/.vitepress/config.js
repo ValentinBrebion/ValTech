@@ -16,10 +16,9 @@ export default defineConfig({
     'link', {href: '/logo-ico-valtech'}
   ],*/
   themeConfig: {
-    
     smoothScroll: true,
     outlineTitle: 'Références',
-    logo:'/logo-valtech.svg',
+    logo:'https://media.discordapp.net/attachments/1035253366995030166/1083390653897125938/logo_sans_texte-removebg-preview.png?ex=65bba5ac&is=65a930ac&hm=41c7f0f7753ced3c316d6ac84755dac82472533e56a2a8090a77cfc1457ce96c&=&format=webp&quality=lossless',
     lastUpdatedText: 'Updated Date',
     returnToTopLabel: 'en haut',
     search: {
@@ -57,26 +56,37 @@ export default defineConfig({
             {text: 'Commandes', link:'/language/git/CommandeGit'}
           ]
         },
-
-          {
-            
-            text: 'VueJs', 
-            collapsed: true,
-            items: [
-              {text:'✅ les bonnes pratiques', link:'/language/js/vuejs/BonnePratiquesVueJS'},
-              { text: 'Javascript',
-              collapsed: true,
-                text: 'VueJs 2',
+        {
+          text: 'Javascript',
+          collapsed: true,
+          items: [
+            {text: 'VueJs', 
+              collapsed: true, 
+              items: [
+                {text: '✅ les bonnes pratiques', link:'/language/js/vuejs/BonnePratiquesVueJS'},
+                {text: 'Vuejs 2', 
+                  collapsed: true, 
+                    items: [
+                      {text: 'Intro Vuejs2', link: '/language/js/vuejs/vuejs2/IntroVuejs'}
+                    ]
+                },
+                {text: 'Vuejs 3',
+                  collapsed: true, 
+                    items: [
+                      {text: 'Intro Vuejs3'}
+                    ]
+              }
+              ]
+            },
+            {
+              text: 'React',
               collapsed: true,
               items: [
-                {text:'Intro VueJs', link:'/language/js/vuejs/vuejs2/IntroVuejs'}
+                {text: 'Introduction React', link: '/language/js/react/IntroReact'}
               ]
-            
             },
-              {text: 'Vuejs 3'}
-            ],
-              
-          },
+          ]
+        },
           {
             text:' PHP ',
             collapsed: true,
