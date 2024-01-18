@@ -5,7 +5,7 @@ export default defineConfig({
   ignoreDeadLinks: true,
   cleanUrls: true,
  lastUpdated: true,
-  lang: 'en-FR',
+  lang: 'fr',
   markdown: {
     lineNumbers: true
   },
@@ -66,14 +66,11 @@ export default defineConfig({
               {text:'✅ les bonnes pratiques', link:'/language/js/vuejs/BonnePratiquesVueJS'},
               { text: 'Javascript',
               collapsed: true,
-              item: [
-                {text: 'VueJs 2',
-                collapsed: true,
-                items: [
-                  {text:'Intro VueJs', link:'/language/js/vuejs/vuejs2/IntroVuejs'}
-                ]}
+                text: 'VueJs 2',
+              collapsed: true,
+              items: [
+                {text:'Intro VueJs', link:'/language/js/vuejs/vuejs2/IntroVuejs'}
               ]
-                
             
             },
               {text: 'Vuejs 3'}
