@@ -19,7 +19,7 @@ export default defineConfig({
     smoothScroll: true,
     outlineTitle: 'Références',
     logo:'https://media.discordapp.net/attachments/1035253366995030166/1083390653897125938/logo_sans_texte-removebg-preview.png?ex=65bba5ac&is=65a930ac&hm=41c7f0f7753ced3c316d6ac84755dac82472533e56a2a8090a77cfc1457ce96c&=&format=webp&quality=lossless',
-    lastUpdatedText: 'Updated Date',
+    lastUpdatedText: 'Mis à jour le ',
     returnToTopLabel: 'en haut',
     search: {
       provider: 'local'
@@ -70,7 +70,7 @@ export default defineConfig({
                       {text: 'Intro Vuejs2', link: '/language/js/vuejs/vuejs2/IntroVuejs'}
                     ]
                 },
-                {text: 'Vuejs 3',
+                {text: 'U+1F441 Vuejs 3',
                   collapsed: true, 
                     items: [
                       {text: 'Intro Vuejs3'}
@@ -82,7 +82,8 @@ export default defineConfig({
               text: 'React',
               collapsed: true,
               items: [
-                {text: 'Introduction React', link: '/language/js/react/IntroReact'}
+                {text: 'Introduction React', link: '/language/js/react/IntroReact'},
+                {text: 'Les composants', link: '/language/js/react/Composants'}
               ]
             },
           ]
@@ -92,7 +93,8 @@ export default defineConfig({
             collapsed: true,
             items: [
               {text :' Laravel', link:'/language/PHP/Laravel/Laravel'},
-              {text: 'MVC', link:'/language/PHP/MVC'}
+              {text: 'MVC', link:'/language/PHP/MVC'},
+              {text: 'Symfony'}
             ]
           }
 
