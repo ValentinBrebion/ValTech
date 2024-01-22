@@ -2,6 +2,18 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  head: [
+    [
+        'script',
+        { id: 'register-sw' },
+        `;(() => {
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('/pwa/sw.js')
+            }
+        })()`
+    ],
+    ['link', { rel: 'manifest', href: '/manifest.json' }] 
+],
   ignoreDeadLinks: true,
   cleanUrls: true,
  lastUpdated: true,

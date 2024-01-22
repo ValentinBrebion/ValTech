@@ -7,7 +7,6 @@ hero:
   name: "ValTech"
   tagline: Un site personnel et professionnel de language informatique
   image:
-        src: /test-svg.png
   actions:
     - theme: brand
       text: découvrir un langage

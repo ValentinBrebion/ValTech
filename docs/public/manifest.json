@@ -1,0 +1,16 @@
+{
+    "name": "Val Tech",
+    "short_name":"ValTech",
+    "start_url": "/index.md",
+    "display": "standalone",
+    "background_color":"#FFE9D2",
+    "theme_color":"#FFE1C4",
+    "icons": [
+        { 
+            "src" : "/512x512.png",
+            "type" : "image/png",
+            "sizes" : "512x512",
+            "purpose": "any"
+        }
+    ]
+}
