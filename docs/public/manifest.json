@@ -1,10 +1,10 @@
 {
     "name": "Val Tech",
     "short_name":"ValTech",
-    "start_url": "/index.md",
+    "start_url": "valtech.ovh",
     "display": "standalone",
-    "background_color":"#FFE9D2",
-    "theme_color":"#FFE1C4",
+    "background_color":"#1E1E20",
+    "theme_color":"#1E1E20",
     "icons": [
         { 
             "src" : "/512x512.png",
