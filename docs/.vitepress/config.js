@@ -95,7 +95,8 @@ export default defineConfig({
               collapsed: true,
               items: [
                 {text: 'Introduction React', link: '/language/js/react/IntroReact'},
-                {text: 'Les composants', link: '/language/js/react/Composants'}
+                {text: 'Les composants', link: '/language/js/react/Composants'},
+                {text: 'Les hooks', link: '/language/js/react/hook'}
               ]
             },
           ]

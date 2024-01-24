@@ -1,6 +1,7 @@
 ---
 next: 
-    text: 'Les hooks (en cours)'
+    text: 'Les hooks'
+    link: 'language/js/react/hook'
 
 prev: 
     text: 'Introduction à React'
