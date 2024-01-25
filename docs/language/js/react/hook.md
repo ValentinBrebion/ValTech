@@ -97,3 +97,72 @@ useEffect(() => {
   }, [getData])
 ```
 ici `getData()` est une fonction fetch api, toutes les 10 secondes on va faire un appel API. Pour parler terme React, la fonction de nettoyage : `return () => {}` va <u>arrêter la fonction `setInterval` par la fonction `clearInterval` au déchargement du composant.</u>.
+
+## <u>useCallback</u>
+useCallback est un Hook React qui permet de mettre en cache une définition de fonction d’un rendu à l’autre. Lorsque vous optimisez la performance de rendu, vous aurez parfois besoin de <u>mettre en cache les fonctions que vous passez à des composants enfants</u>.
+
+### Exemple
+```jsx
+import React, { useState, useCallback } from 'react';
+
+function ParentComponent() {
+  const [count, setCount] = useState(0);
+
+  // Utilisation de useCallback pour mémoriser la fonction callback
+  const memoizedCallback = useCallback(
+    () => {
+      console.log('Callback function called');
+    },
+    [count]  // La fonction sera recalculée uniquement si 'count' change
+  );
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>
+        Increment
+      </button>
+      {/* Utilisation de la fonction mémorisée dans un composant enfant */}
+      <ChildComponent callback={memoizedCallback} />
+    </div>
+  );
+}
+
+function ChildComponent({ callback }) {
+  // Utilisation de la fonction callback dans le composant enfant
+  return (
+    <div>
+      <p>Child Component</p>
+      <button onClick={callback}>
+        Call Callback
+      </button>
+    </div>
+  );
+}
+
+```
+::: tip Compréhension
+Grosso modo, tant que les dépendances ne changeront pas, la fonction mis en cache par le useCallback sera la même ce qui permet un gain de performance important.
+:::
+
+### Help je ne comprend toujours pas
+Laissez moi vous expliquez différent via un exemple plus parlant : 
+
+```jsx
+function ProductPage({ productId, referrer, theme }) {
+  // Dit à React de mettre en cache votre fonction d’un rendu à l’autre...
+  const handleSubmit = useCallback((orderDetails) => {
+    post('/product/' + productId + '/buy', {
+      referrer,
+      orderDetails,
+    });
+  }, [productId, referrer]); // ...du coup tant que ces dépendances ne changent pas...
+
+  return (
+    <div className={theme}>
+      {/* ...ShippingForm recevra les mêmes props et ne refera pas son rendu. */}
+      <ShippingForm onSubmit={handleSubmit} />
+    </div>
+  );
+}
+```

@@ -12,7 +12,8 @@ export default defineConfig({
             }
         })()`
     ],
-    ['link', { rel: 'manifest', href: '/manifest.json' }] 
+    ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ['link', {rel: 'icon', href: '/logo-ico-valtech.ico'}]
 ],
   ignoreDeadLinks: true,
   cleanUrls: true,
@@ -24,9 +25,6 @@ export default defineConfig({
   
   title: "ValTech",
   description: "Site personnel et professionel dans lequel sera documenter les différents langages que je verrais ou que j'ai vu ainsi qu'une partie cybersécurité et devtools",
- /* head: [
-    'link', {href: '/logo-ico-valtech'}
-  ],*/
   themeConfig: {
     smoothScroll: true,
     outlineTitle: 'Références',
@@ -41,21 +39,12 @@ export default defineConfig({
     
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-     // { text: 'Home', link: '/' },
-      //{ text: 'Examples', link: '/markdown-examples' },
       {text: 'Cybersécurité', link: '/cybersecurite/OWASP'},
       {text: 'DevTools', link: '/DevTools/DevSite'},
       {text: 'Langage', items: [ {text: 'Git', link: 'language/git/git'}, {text: 'Laravel', link:'language/PHP/Laravel/Laravel'} ]}
     ],
 
     sidebar: [
-      /*{
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      },*/
       {
         text: 'langage de programmation',
         items: [
