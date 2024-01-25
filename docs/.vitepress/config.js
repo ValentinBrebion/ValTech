@@ -13,7 +13,9 @@ export default defineConfig({
         })()`
     ],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ['link', {rel: 'icon', href: '/logo-ico-valtech.ico'}]
+    ['link', {rel: 'icon', href: '/logo-ico-valtech.ico'}],
+    //preconnect
+    ['link', {rel: 'preconnect', href:'https://media.discordapp.net'}]
 ],
   ignoreDeadLinks: true,
   cleanUrls: true,
@@ -96,7 +98,8 @@ export default defineConfig({
             items: [
               {text :' Laravel', link:'/language/PHP/Laravel/Laravel'},
               {text: 'MVC', link:'/language/PHP/MVC'},
-              {text: 'Symfony'}
+              {text: 'Symfony'},
+              {text: 'Wordpress'}
             ]
           }
 
