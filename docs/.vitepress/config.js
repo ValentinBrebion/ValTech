@@ -15,7 +15,8 @@ export default defineConfig({
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['link', {rel: 'icon', href: '/logo-ico-valtech.ico'}],
     //preconnect
-    ['link', {rel: 'preconnect', href:'https://media.discordapp.net'}]
+    ['link', {rel: 'preconnect', href:'https://media.discordapp.net'}],
+    ['link', {rel: 'stylesheet', href:'/css/valtech.css'}]
 ],
   ignoreDeadLinks: true,
   cleanUrls: true,
@@ -32,6 +33,12 @@ export default defineConfig({
     outlineTitle: 'Références',
     logo:'https://media.discordapp.net/attachments/1035253366995030166/1083390653897125938/logo_sans_texte-removebg-preview.png?ex=65bba5ac&is=65a930ac&hm=41c7f0f7753ced3c316d6ac84755dac82472533e56a2a8090a77cfc1457ce96c&=&format=webp&quality=lossless',
     lastUpdatedText: 'Mis à jour le ',
+    lastUpdated: {
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    },
     returnToTopLabel: 'en haut',
     search: {
       provider: 'local'
@@ -108,7 +115,8 @@ export default defineConfig({
       {
         text: 'DevTools',
         items: [
-          {text: 'Outils Dev', link:'/DevTools/DevSite'}
+          {text: 'Outils Dev', link:'/DevTools/DevSite'},
+          {text: 'PWA'/*, link:'/DevTools/PWA'*/}
         ]
       },
       {

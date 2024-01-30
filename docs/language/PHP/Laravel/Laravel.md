@@ -24,7 +24,7 @@ Comme mentionné ci-dessus, Laravel est livré avec un puissant gestionnaire de 
 
 *Une fois le .exe lancé, lancez votre CMD et tapez la commande **"composer"**. Si vous avez les inscriptions comme indiquez sur la capture ci-dessous, c'est que composer a bien été installé sur votre ordinateur* 😁.
 
-![Texte alternatif de l'image](../../../public/composerSetup.png)
+![Texte alternatif de l'image](/composerSetup.png)
 
 ## <u>Comment l'installer (Version MacOS)</u> ❓
 
