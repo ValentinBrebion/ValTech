@@ -116,7 +116,7 @@ export default defineConfig({
         text: 'DevTools',
         items: [
           {text: 'Outils Dev', link:'/DevTools/DevSite'},
-          {text: 'PWA'/*, link:'/DevTools/PWA'*/}
+          {text: 'PWA', link:'/DevTools/PWA'}
         ]
       },
       {
