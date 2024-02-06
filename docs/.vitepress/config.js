@@ -23,7 +23,8 @@ export default defineConfig({
  lastUpdated: true,
   lang: 'fr',
   markdown: {
-    lineNumbers: true
+    lineNumbers: true,
+    lazyLoading: true
   },
   
   title: "ValTech",
@@ -73,7 +74,7 @@ export default defineConfig({
             {text: 'VueJs', 
               collapsed: true, 
               items: [
-                {text: '✅ les bonnes pratiques', link:'/language/js/vuejs/BonnePratiquesVueJS'},
+                {text: 'Introduction à Vuejs', link:'/language/js/vuejs/IntroductionVuejs'},
                 {text: 'Vuejs 2', 
                   collapsed: true, 
                     items: [
@@ -83,9 +84,10 @@ export default defineConfig({
                 {text: 'Vuejs 3',
                   collapsed: true, 
                     items: [
-                      {text: 'Intro Vuejs3'}
+                      {text: 'Intro Vuejs3', link:'/language/js/vuejs/vuejs3/IntroductionVuejs3'}
                     ]
-              }
+              },
+              {text: '✅ les bonnes pratiques', link:'/language/js/vuejs/BonnePratiquesVueJS'},
               ]
             },
             {
@@ -106,7 +108,7 @@ export default defineConfig({
               {text :' Laravel', link:'/language/PHP/Laravel/Laravel'},
               {text: 'MVC', link:'/language/PHP/MVC'},
               {text: 'Symfony'},
-              {text: 'Wordpress'}
+              {text: 'Wordpress', link:'/language/PHP/Wordpress/IntroWordpress'}
             ]
           }
 

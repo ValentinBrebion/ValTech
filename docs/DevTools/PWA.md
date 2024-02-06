@@ -29,7 +29,7 @@ Un mot extrèmement stylé mais bien utile puisqu'ils offrent des fonctionnalit�
 Les fichiers `manifest.json` et `sw.js` doivent toujours être à la racine du fichier
 :::
 
-::: details Code à mettre pour activer les services workers
+::: details Code à mettre pour activer les services workers (dans head)
 ```js
 if ('serviceWorker' in navigator) {
 navigator.serviceWorker.register('/sw.js’)
