@@ -4,13 +4,13 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   head: [
     [
-        'script',
-        { id: 'register-sw' },
-        `;(() => {
-            if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('/pwa/sw.js')
-            }
-        })()`
+      'script',
+      { id: 'register-sw' },
+      `;(() => {
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/pwa/sw.js')
+        }
+      })()`
     ],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['link', {rel: 'icon', href: '/logo-ico-valtech.ico'}],

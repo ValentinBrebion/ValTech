@@ -6,3 +6,6 @@
     --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #ae00ff, #18a7d6);
   }
+.color-danger {
+  color:white;
+}

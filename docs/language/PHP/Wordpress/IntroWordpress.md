@@ -1,5 +1,7 @@
 ---
-next: false
+next: 
+    text: 'Thème enfant'
+    link: 'language/PHP/Wordpress/Childrentheme'
 prev: false
 ---
 # 📜 Introduction à Wordpress
@@ -9,7 +11,7 @@ prev: false
 WordPress est disponible en deux versions : <a href="wordpress.com">WordPress.com</a>, qui est une plateforme d'hébergement gérée par Automattic (la société fondée par Matt Mullenweg), et <a href="wordpress.org">WordPress.org</a>, qui est la version auto-hébergée et personnalisable du logiciel
 :::
 
-## Que faire avec Wordpress ?
+## I. Que faire avec Wordpress ?
 ::: tip Wordpress
 1. des blogs
 2. des sites institutionnels
@@ -18,19 +20,48 @@ WordPress est disponible en deux versions : <a href="wordpress.com">WordPress.co
 5. des thèmes !
 :::
 
-## Comment faire un thème Wordpress
+## II. Découverte de l'administration de WordPress
+Accès à l’administration
 
-### <u>Pré-requis</u>
+URL : https://nom-domaine.ext/wp-admin
+Interface d’administration
 
-- le fichier `style.css` et vous pouvez coller ce texte en y renseignant les informations du projet 
-```bash
-/*
-Theme Name: Le nom de votre thème
-Author: ValTech
-Author URI: https://valtech.ovh
-Description: Mon premier thème…
-*/
-```
-- screenshot.png pour illustrer le thème. Lorsque vous vous rendrez sur la partie thème de votre Wordpress vous verrez des thèmes pré-installés. Le screenshot sera l'image qui illustrera votre thème.
-- index.php C’est le gabarit par défaut, il sera utilisé par wordpress si aucun autre fichier n’est présent
-- 
+Types de contenus : Articles, Catégories, Étiquettes, Commentaires, Médias, Pages
+Gutenberg
+
+Nouvel éditeur de contenu
+Tutoriels et ressources pour Gutenberg
+Ajouter/Modifier du contenu
+
+Options de publication
+Organisation des contenus : Catégories, Étiquettes, Taxonomies
+Les pages
+
+Hiérarchie, Modèle de page
+Les médias
+
+Images, Vidéo, Son, PDF, etc.
+Éditeur d’images
+
+Fonctions de base
+Les thèmes
+
+Gratuit, payant, personnalisation, thème enfant
+Les menus
+
+Créer un menu, Associer le menu à l’emplacement
+Les widgets
+
+Disponibilité, création, emplacements
+Les extensions
+
+Fonctionnalités, installation, précautions
+Les utilisateurs
+
+Rôles : Administrateur, Éditeur, Auteur, Contributeur, Abonné
+Les permaliens
+
+Gestion, configuration, fichier .htaccess
+Et plus encore
+
+Formats d’articles, Champs personnalisés, Import/Export des données

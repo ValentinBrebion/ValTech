@@ -4,7 +4,7 @@ next:
 prev: 
     text: 'Vuejs 3'
 ---
-# Introduction à Vuejs (V3)
+# Introduction à Vuejs
 
 ## <u>Définition</u>
 VueJs est un framework permettant de développer des interfaces utilisateur. Développé entièrement en <mark>Typescript</mark> depuis la version 3, il lui confère à vuejs une meilleure maintenabilité ainsi qu'un gain de productivité boostée pour nos amies développeurs.*C'est est un framework JavaScript **progressif** utilisé pour développer des applications web interactives et réactives. Il est souvent considéré comme un framework JavaScript "front-end" ou un framework de rendu côté client.*
