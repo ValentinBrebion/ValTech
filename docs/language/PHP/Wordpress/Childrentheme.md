@@ -309,7 +309,7 @@ add_action('wp_enqueue_scripts', 'wpdocs_theme_name_scripts');
 ### Méthode 2 : Utilisation de wp_head et wp_footer (Solution alternative)
 Depuis la version 5.7 de WordPress, vous pouvez également utiliser cette méthode.
 
-Inclure le fichier JS dans functions.php
+Inclure le fichier JS dans functions.php 
 ```php
 add_action( 'wp_head', 'wpdd_load_scripts' );
 function wpdd_load_scripts() {
