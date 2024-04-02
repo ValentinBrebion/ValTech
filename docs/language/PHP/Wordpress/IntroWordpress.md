@@ -65,4 +65,3 @@ Gestion, configuration, fichier .htaccess
 Et plus encore
 
 Formats d’articles, Champs personnalisés, Import/Export des données
-salut les amis c'est david laforge wordpress
