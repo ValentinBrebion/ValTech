@@ -112,3 +112,10 @@ Envoie des modifications vers le dossier distant <a href="https://git-scm.com/do
 ```sh
 git push
 ```
+
+quand tu fais un commit et que par exemple tu veux changer de branche, ça va sortir le message `force checkout` mais comment retirer le commit
+stash ? et bien avec cette commande : 
+
+```sh
+git reset --soft HEAD~1
+```
