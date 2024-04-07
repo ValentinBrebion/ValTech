@@ -119,3 +119,12 @@ stash ? et bien avec cette commande :
 ```sh
 git reset --soft HEAD~1
 ```
+
+Comment faire une rebase ?
+
+```sh 
+git checkout main
+git pull
+git checkout <nom-branche>
+git rebase main
+```
