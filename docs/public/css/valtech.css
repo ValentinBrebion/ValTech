@@ -4,3 +4,13 @@
     text-align: center;
 }
 /*#### end PWA CSS page ####*/
+
+/*#### config svg inline text and emoji ####*/
+.inline-content {
+    display: flex;
+    align-items: center;
+}
+.inline-content svg {
+    margin-right: 8px;
+}
+/*#### end config svg inline text and emoji ####*/

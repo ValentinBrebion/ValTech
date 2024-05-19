@@ -107,7 +107,13 @@ export default defineConfig({
             items: [
               {text :' Laravel', link:'/language/php/Laravel/Laravel'},
               {text: 'MVC', link:'/language/php/MVC'},
-              {text: 'Symfony'},
+              {text: 'Symfony', 
+              collapsed: true, 
+              items: [
+                {
+                  text:'Histoire', link:'/language/PHP/Symfony/HistoireSymfony'
+                }
+              ]},
               {text: 'Wordpress', link:'/language/php/Wordpress/IntroWordpress'}
             ]
           }
