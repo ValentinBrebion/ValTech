@@ -1,6 +1,7 @@
 ---
 next:
     text: 'Vuejs 2'
+    link: 'language/js/vuejs/vuejs2/IntroVuejs2'
 prev: 
     text: 'Vuejs 3'
 ---

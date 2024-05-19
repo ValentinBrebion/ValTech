@@ -78,7 +78,7 @@ export default defineConfig({
                 {text: 'Vuejs 2', 
                   collapsed: true, 
                     items: [
-                      {text: 'Intro Vuejs2', link: '/language/js/vuejs/vuejs2/IntroVuejs'}
+                      {text: 'Intro Vuejs2', link: '/language/js/vuejs/vuejs2/IntroVuejs2'}
                     ]
                 },
                 {text: 'Vuejs 3',
