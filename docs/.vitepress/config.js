@@ -28,7 +28,7 @@ export default defineConfig({
   },
   
   title: "ValTech",
-  description: "Site personnel et professionel dans lequel sera documenter les différents langages que je verrais ou que j'ai vu ainsi qu'une partie cybersécurité et devtools",
+  description: "Site personnel et professionel dans lequel sera documenté les différents langages que je verrais ou que j'ai vu ainsi qu'une partie cybersécurité et devtools",
   themeConfig: {
     smoothScroll: true,
     outlineTitle: 'Références',
@@ -137,6 +137,20 @@ export default defineConfig({
         text: 'Cybersécurité',
         items: [
           {text: 'Règle OWASP 2021', link:'/cybersecurite/OWASP'}
+        ]
+      },
+      {
+        text: 'DevOps',
+        items: [
+            {
+              text: 'CI/CD',
+              collapsed:true,
+              items: [
+                {
+                  text: 'WorkFlow', link: '/devOps/workFlow/WorkFlow'
+                }
+              ]
+            }
         ]
       }
     ],
