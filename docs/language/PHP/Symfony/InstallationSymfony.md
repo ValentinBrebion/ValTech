@@ -46,5 +46,7 @@ Commentaires :
 
 Rendu conditionnel
 ```js
-{% ... %} /*if*/
+{% if condition %}
+  //code à exécuté dans la condition
+{% endif %}
 ```
