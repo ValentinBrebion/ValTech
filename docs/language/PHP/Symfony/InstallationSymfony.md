@@ -1,5 +1,7 @@
 ---
-next: false
+next:
+    text: 'Hiérarchie de Symfony'
+    link: 'language/PHP/Symfony/HierarchieSymfony'
 prev: 
     text: 'Histoire de Symfony'
     link: 'language/PHP/Symfony/HistoireSymfony'

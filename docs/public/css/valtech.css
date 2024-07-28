@@ -14,3 +14,6 @@
     margin-right: 8px;
 }
 /*#### end config svg inline text and emoji ####*/
+.italic {
+ font-style: italic;
+}
