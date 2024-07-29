@@ -31,3 +31,9 @@ Iconoir est un site d'icon 100 % gratuit utile pour des projets, Les icons peuve
 :::info Details
 Ikonate est un site d'icon 100 % gratuit utile pour des projets, Les icons peuvent être customizées (couleur, gras et taille) 😁
 :::
+
+# SVGL <a href="https://svgl.app"><Badge type="tip" text="Découvrir" /></a>
+
+:::info Details
+SVGL est un site ou l'on peut retrouver un panel de svg programmation utile pour mettre des icones de dev gratuit !
+:::
