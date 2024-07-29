@@ -8,7 +8,7 @@ prev: false
 > Wordpress est un système de gestion de contenu ou autrement dit : `CMS`. Il a été créé en 2003 par un texan depuis un projet Corse et distribué par Automattic. Il est entièrement écrit en PHP/Mysql et il est capable, aujourd’hui, de gérer de gros sites internet. Selon w3tech, Wordpress occupait près de 63% des parts de marchés en 2023.
 
 ::: danger ⚠️ Attention
-WordPress est disponible en deux versions : <a href="wordpress.com">WordPress.com</a>, qui est une plateforme d'hébergement gérée par Automattic (la société fondée par Matt Mullenweg), et <a href="wordpress.org">WordPress.org</a>, qui est la version auto-hébergée et personnalisable du logiciel
+WordPress est disponible en deux versions : <a href="wordpress.com" target="_blank">WordPress.com</a>, qui est une plateforme d'hébergement gérée par Automattic (la société fondée par Matt Mullenweg), et <a href="wordpress.org" target="_blank">WordPress.org</a>, qui est la version auto-hébergée et personnalisable du logiciel
 :::
 
 ## I. Que faire avec Wordpress ?

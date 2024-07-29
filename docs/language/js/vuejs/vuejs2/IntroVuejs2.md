@@ -105,7 +105,7 @@ Voici un calcul simple :
 6
 ```
 
-## <u>Maintenant la structure! 😉 </u><a href="https://v2.vuejs.org/v2/guide/#Declarative-Rendering"><Badge type="tip" text="Documentation" /></a>
+## <u>Maintenant la structure! 😉 </u><a href="https://v2.vuejs.org/v2/guide/#Declarative-Rendering" target="_blank"><Badge type="tip" text="Documentation" /></a>
 
 La on rentre dans le concret, comment une application vuejs (2) est-elle structurée ? Est-ce compliqué à prendre en main ? Est-ce que... STOP ❗<br>
 

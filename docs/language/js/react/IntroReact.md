@@ -18,7 +18,7 @@ React a introduit une nouvelle syntaxe propre à la bibliothèque : le `JSX (Jav
 :::
 
 ### <u>Une extension de syntaxe ??? hein ?</u>
-Lorsqu'on dit que JSX est une ***<u>"extension de syntaxe"</u>*** de JavaScript, cela signifie que `JSX n'est pas du JavaScript pur, mais plutôt une syntaxe qui étend la syntaxe JavaScript pour permettre l'intégration de balises semblables à HTML dans le code JavaScript`. L'extension de syntaxe signifie également que <u>le code JSX doit être transformé en code JavaScript standard avant d'être interprété par les navigateurs</u>. C'est là que les outils de transpilation tels que <a href="https://babeljs.io/">Babel</a> entrent en jeu. Babel est capable de `prendre du code JSX et de le convertir en équivalent JavaScript compréhensible par les navigateurs`, permettant ainsi l'utilisation de JSX dans des applications web.
+Lorsqu'on dit que JSX est une ***<u>"extension de syntaxe"</u>*** de JavaScript, cela signifie que `JSX n'est pas du JavaScript pur, mais plutôt une syntaxe qui étend la syntaxe JavaScript pour permettre l'intégration de balises semblables à HTML dans le code JavaScript`. L'extension de syntaxe signifie également que <u>le code JSX doit être transformé en code JavaScript standard avant d'être interprété par les navigateurs</u>. C'est là que les outils de transpilation tels que <a href="https://babeljs.io/" target="_blank">Babel</a> entrent en jeu. Babel est capable de `prendre du code JSX et de le convertir en équivalent JavaScript compréhensible par les navigateurs`, permettant ainsi l'utilisation de JSX dans des applications web.
 
 ## <u>Comment créer mon projet en React ?</u>
 ```jsx
