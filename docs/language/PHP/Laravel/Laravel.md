@@ -20,7 +20,7 @@
 
 ## <u>Comment l'installer (Version Windows)</u> ❓
 
-Comme mentionné ci-dessus, Laravel est livré avec un puissant gestionnaire de dépendances appelé <a href="https://getcomposer.org/download/">`"Composer" 🔗` </a>, qui facilite l'installation de bibliothèques tierces et de packages dans votre projet. 
+Comme mentionné ci-dessus, Laravel est livré avec un puissant gestionnaire de dépendances appelé <a href="https://getcomposer.org/download/" target="_blank">`"Composer" 🔗` </a>, qui facilite l'installation de bibliothèques tierces et de packages dans votre projet. 
 
 *Une fois le .exe lancé, lancez votre CMD et tapez la commande **"composer"**. Si vous avez les inscriptions comme indiquez sur la capture ci-dessous, c'est que composer a bien été installé sur votre ordinateur* 😁.
 
@@ -28,7 +28,7 @@ Comme mentionné ci-dessus, Laravel est livré avec un puissant gestionnaire de 
 
 ## <u>Comment l'installer (Version MacOS)</u> ❓
 
-Pour la version MacOS, PHP et composer peuvent-être installés avec <a href="https://herd.laravel.com">`Laravel Herd`</a>. Herd est un environnement de développement Laravel et PHP qui comprend nginx et dnsmasq en plus !
+Pour la version MacOS, PHP et composer peuvent-être installés avec <a href="https://herd.laravel.com" target="_blank">`Laravel Herd`</a>. Herd est un environnement de développement Laravel et PHP qui comprend nginx et dnsmasq en plus !
 
 ## <u>Comment créer projet Laravel </u> ❓
 <br/>

@@ -15,7 +15,7 @@ prev: false
 
 # Les 10 règles d'OWASP de 2021 ❗
 
-## 1️⃣- A01:2021 - Contrôle d'accès défaillants <a href="https://owasp.org/Top10/fr/A01_2021-Broken_Access_Control/"><Badge type="tip" text="Documentation" /></a>
+## 1️⃣- A01:2021 - Contrôle d'accès défaillants <a href="https://owasp.org/Top10/fr/A01_2021-Broken_Access_Control/" target="_blank"><Badge type="tip" text="Documentation" /></a>
 
 ::: warning En-tête
 Anciennement à la 5ème place, le contrôle d'accès implique la vérification des droits qu'un utilisateur peut avoir sur une application. Si celle-ci est omis alors les conséquences impacteront non seulement la société entrainant une perte de confiance des utilisateurs mais aussi elles conduiront à la **modification** ou la **destruction** d'informations non autorisées de toutes les données ou l'éxecution d'une fonctionnalité métier en dehors des limites de l'utilisateur.
@@ -74,7 +74,7 @@ Anciennement à la 5ème place, le contrôle d'accès implique la vérification 
 <br/>
 :::
 
-## 2️⃣- A02:2021 - Défaillances cryptographiques <a href="https://owasp.org/Top10/fr/A02_2021-Cryptographic_Failures/"><Badge type="tip" text="Documentation" /></a>
+## 2️⃣- A02:2021 - Défaillances cryptographiques <a href="https://owasp.org/Top10/fr/A02_2021-Cryptographic_Failures/" target="_blank"><Badge type="tip" text="Documentation" /></a>
 
 ::: warning En-tête
 Anciennement à la 3ème place et connu sous le nom de ``Exposition de données sensibles``, elle concerne les défaillaces liées à la mise en œuvre de la cryptographie ou son absence, Ce qui peut entraîner une exposition de données sensibles.
@@ -98,7 +98,7 @@ Est-ce que des méthodes cryptographiques de remplissage dépréciées, comme <b
 </li>
 :::
 
-## 2️⃣ <u>Mais comment sécuriser notre application contre ces défaillances cryptographiques</u>❓<a href="https://owasp.org/Top10/fr/A02_2021-Cryptographic_Failures/#comment-sen-premunir"><Badge type="tip" text="Documentation" /></a>
+## 2️⃣ <u>Mais comment sécuriser notre application contre ces défaillances cryptographiques</u>❓<a href="https://owasp.org/Top10/fr/A02_2021-Cryptographic_Failures/#comment-sen-premunir" target="_blank"><Badge type="tip" text="Documentation" /></a>
 
 ::: danger
 <li><b>Ne pas stocker de données sensibles sans que cela ne soit nécessaire. Les rejeter ou utiliser une tokenisation conforme à la norme de sécurité de l’industrie des cartes de paiement (PCI DSS) ou même une troncature.</b></li><br>
@@ -108,7 +108,7 @@ Est-ce que des méthodes cryptographiques de remplissage dépréciées, comme <b
 Et bien d'autres...
 :::
 
-## 3️⃣- A03:2021 - Injection <a href="https://owasp.org/Top10/fr/A03_2021-Injection/"><Badge type="tip" text="Documentation" /></a>
+## 3️⃣- A03:2021 - Injection <a href="https://owasp.org/Top10/fr/A03_2021-Injection/" target="_blank"><Badge type="tip" text="Documentation" /></a>
 
 ::: warning En-tête
 Anciennement à la 1ère place, l'injection se définit par l'insertion de données externe potentiellement dangereuses à l'intérieur d'un flux de données ou de requêtes SQL ou NoSQL pour les plus courantes.
@@ -139,7 +139,7 @@ http://exemple.com/liste?id='or '1'='1
 ```
 Et ciao ! c'est fini ! l'attaquant peut ainsi obtenir des privilèges d'administrateur 😢😭. Mais pas de panique quelques solutions permettent de limiter les injections.
 
-## 3️⃣ <u>Solutions de sécurisation</u> <a href="https://owasp.org/Top10/fr/A03_2021-Injection/#comment-sen-premunir"><Badge type="tip" text="Documentation" /></a>
+## 3️⃣ <u>Solutions de sécurisation</u> <a href="https://owasp.org/Top10/fr/A03_2021-Injection/#comment-sen-premunir" target="_blank"><Badge type="tip" text="Documentation" /></a>
 
 
 ::: danger
@@ -148,7 +148,7 @@ Et ciao ! c'est fini ! l'attaquant peut ainsi obtenir des privilèges d'administ
 <li><b>il est conseillé d'utiliser LIMIT et autres contrôles SQL à l'intérieur des requêtes pour empêcher les divulgations massives de données dans le cas d'injection SQL.</b></li><br>
 :::
 
-## 4️⃣- A04:2021 - Conception non sécurisée <a href="https://owasp.org/Top10/fr/A04_2021-Insecure_Design/"><Badge type="tip" text="Documentation" /></a>
+## 4️⃣- A04:2021 - Conception non sécurisée <a href="https://owasp.org/Top10/fr/A04_2021-Insecure_Design/" target="_blank"><Badge type="tip" text="Documentation" /></a>
 
 ::: warning En-tête
 La conception non sécurisée englobe diverses lacunes dans les contrôles de conception, distinctes de l'implémentation non sécurisée. Une conception sécurisée ``peut présenter des défauts d'implémentation``, tandis qu'une conception non sécurisée ``manque de contrôles de sécurité spécifiques``. Le manque de profilage des risques commerciaux contribue à la conception non sécurisée.
@@ -184,7 +184,7 @@ Rassemblez les exigences techniques, ``y compris les exigences de sécurité fon
 :::
 
 
-## 4️⃣ <u>Solutions de sécurisation</u> <a href="https://owasp.org/Top10/fr/A04_2021-Insecure_Design/#comment-sen-premunir"><Badge type="tip" text="Documentation" /></a>
+## 4️⃣ <u>Solutions de sécurisation</u> <a href="https://owasp.org/Top10/fr/A04_2021-Insecure_Design/#comment-sen-premunir" target="_blank"><Badge type="tip" text="Documentation" /></a>
 
 ::: danger
 <li><b>intégrez les contrôles de sécurité dans les user stories.</b></li><br>
@@ -193,7 +193,7 @@ Rassemblez les exigences techniques, ``y compris les exigences de sécurité fon
 </b></li><br>
 :::
 
-## 5️⃣ A05:2021 - Mauvaise configuration de sécurité <a href="https://owasp.org/Top10/fr/A05_2021-Security_Misconfiguration/"><Badge type="tip" text="Documentation" /></a>
+## 5️⃣ A05:2021 - Mauvaise configuration de sécurité <a href="https://owasp.org/Top10/fr/A05_2021-Security_Misconfiguration/" target="_blank"><Badge type="tip" text="Documentation" /></a>
 
 ::: warning En-tête
 <b>Anciennement à la sixième place, une mauvaise configuration de sécurité sur un serveur entraine des failles de sécurité facilement exploitable par un attaquant.</b>
@@ -207,7 +207,7 @@ Quand est ce qu'une application est-elle vulnérable ? ⚠️
 <li><b>La version du logiciel est obsolète ou vulnérable</b></li><br/>
 :::
 
-## 5️⃣ <u>Solutions de sécurisation</u> <a href="https://owasp.org/Top10/fr/A05_2021-Security_Misconfiguration/#comment-sen-premunir"><Badge type="tip" text="Documentation" /></a>
+## 5️⃣ <u>Solutions de sécurisation</u> <a href="https://owasp.org/Top10/fr/A05_2021-Security_Misconfiguration/#comment-sen-premunir" target="_blank"><Badge type="tip" text="Documentation" /></a>
 
 ::: danger
 <li><b>une plate-forme minimale sans fonctionnalité, composant, documentation et échantillon inutile. Supprimer ou ne pas installer des fonctionnalités et frameworks inutilisés.</b></li><br>
@@ -216,7 +216,7 @@ Quand est ce qu'une application est-elle vulnérable ? ⚠️
 </b></li><br>
 :::
 
-## 6️⃣ A06:2021 - Composants vulnérables et obsolètes <a href="https://owasp.org/Top10/fr/A06_2021-Vulnerable_and_Outdated_Components/"><Badge type="tip" text="Documentation" /></a>
+## 6️⃣ A06:2021 - Composants vulnérables et obsolètes <a href="https://owasp.org/Top10/fr/A06_2021-Vulnerable_and_Outdated_Components/" target="_blank"><Badge type="tip" text="Documentation" /></a>
 
 ::: warning En-tête
 <b>Anciennement à la neuxième place, l'utilisation de composants vulnérables ou obsolètes seraient comme ouvrir délibérement la porte de votre système aux attaquants. </b>
@@ -230,7 +230,7 @@ Quand est ce qu'une application est-elle vulnérable ? ⚠️
 <li><b>si les développeurs de logiciels ne testent pas la compatibilité des évolutions, des mises à jour et des correctifs des bibliothèques.</b></li><br/>
 :::
 
-## 6️⃣ <u>Solutions de sécurisation</u> <a href="https://owasp.org/Top10/fr/A06_2021-Vulnerable_and_Outdated_Components/#comment-sen-premunir"><Badge type="tip" text="Documentation" /></a>
+## 6️⃣ <u>Solutions de sécurisation</u> <a href="https://owasp.org/Top10/fr/A06_2021-Vulnerable_and_Outdated_Components/#comment-sen-premunir" target="_blank"><Badge type="tip" text="Documentation" /></a>
 
 ::: danger
 <li><b>supprimer les dépendances inutiles et les fonctionnalités, composants, fichiers et documentation non nécessaires.</b></li><br>
@@ -239,7 +239,7 @@ Quand est ce qu'une application est-elle vulnérable ? ⚠️
 </b></li><br>
 :::
 
-## 7️⃣ A07:2021 - Identification et authentification de mauvaise qualité <a href="https://owasp.org/Top10/fr/A07_2021-Identification_and_Authentication_Failures/"><Badge type="tip" text="Documentation" /></a>
+## 7️⃣ A07:2021 - Identification et authentification de mauvaise qualité <a href="https://owasp.org/Top10/fr/A07_2021-Identification_and_Authentication_Failures/" target="_blank"><Badge type="tip" text="Documentation" /></a>
 
 ::: warning En-tête
 <b>Anciennement à la dixième place, 
@@ -254,7 +254,7 @@ Il peut y avoir des faiblesses d'authentification si l'application :
 <li><b>exposition des identifiants de session dans l'URL.</b></li><br/>
 :::
 
-## 7️⃣ <u>Solutions de sécurisation</u> <a href="https://owasp.org/Top10/fr/A07_2021-Identification_and_Authentication_Failures/#comment-sen-premunir"><Badge type="tip" text="Documentation" /></a>
+## 7️⃣ <u>Solutions de sécurisation</u> <a href="https://owasp.org/Top10/fr/A07_2021-Identification_and_Authentication_Failures/#comment-sen-premunir" target="_blank"><Badge type="tip" text="Documentation" /></a>
 
 ::: danger
 <li><b>respecter la longueur, la complexité et la rotation des mots de passe par rapport aux directives du National Institute of Standards and Technology (NIST) 800-63 B à la section 5.1.1 ou autres directives modernes</b></li><br>
@@ -263,7 +263,7 @@ Il peut y avoir des faiblesses d'authentification si l'application :
 </b></li><br>
 :::
 
-## 8️⃣ A08:2021 - Manque d'intégrité des données et du logiciel <a href="https://owasp.org/Top10/fr/A08_2021-Software_and_Data_Integrity_Failures/"><Badge type="tip" text="Documentation" /></a>
+## 8️⃣ A08:2021 - Manque d'intégrité des données et du logiciel <a href="https://owasp.org/Top10/fr/A08_2021-Software_and_Data_Integrity_Failures/" target="_blank"><Badge type="tip" text="Documentation" /></a>
 
 ::: warning En-tête
 <b>Parfois, les logiciels et les données peuvent être endommagés ou altérés à cause de problèmes avec le code informatique et le système qui les protège. Cela arrive lorsque les personnes utilisent des morceaux de programmes provenant de sources peu sûres, comme des sites web ou des endroits où l'on partage des choses. De plus, si on ne fait pas attention, des méchants peuvent essayer de pénétrer dans les ordinateurs en utilisant des méthodes spéciales qui peuvent causer des problèmes. Il y a aussi le fait que certains programmes se mettent à jour tout seuls, mais cela peut poser des soucis si les mises à jour ne sont pas vérifiées correctement. Les méchants peuvent télécharger leurs propres mises à jour et les faire fonctionner sur tous les ordinateurs sans autorisation. Un autre exemple concerne des choses spéciales qui sont codées d'une certaine manière et que les méchants peuvent voir et changer pour causer des problèmes. C'est un peu comme si quelqu'un changeait les règles d'un jeu pour tricher.</b>
@@ -276,7 +276,7 @@ Il peut y avoir des faiblesses d'authentification si l'application :
 <b>De nombreux routeurs domestiques, décodeurs, firmwares de périphériques et autres ne vérifient pas les mises à jour via un firmware signé. Les microprogrammes non signés constituent une cible de plus en plus importante pour les attaquants et leur nombre ne devrait cesser d'augmenter. Il s'agit d'une préoccupation majeure car, bien souvent, il n'y a pas de mécanisme pour y remédier, si ce n'est de corriger dans une version future et d'attendre que les versions précédentes soient périmées.</b>
 :::
 
-## 8️⃣ <u>Solutions de sécurisation</u> <a href="https://owasp.org/Top10/fr/A08_2021-Software_and_Data_Integrity_Failures/#comment-sen-premunir"><Badge type="tip" text="Documentation" /></a>
+## 8️⃣ <u>Solutions de sécurisation</u> <a href="https://owasp.org/Top10/fr/A08_2021-Software_and_Data_Integrity_Failures/#comment-sen-premunir" target="_blank"><Badge type="tip" text="Documentation" /></a>
 
 ::: danger
 <li><b>utilisez des signatures numériques ou des mécanismes similaires pour vérifier que le logiciel ou les données proviennent de la source prévue et n'ont pas été modifiés</b></li><br>
@@ -285,7 +285,7 @@ Il peut y avoir des faiblesses d'authentification si l'application :
 </b></li><br>
 :::
 
-## 9️⃣ A09:2021 - Carence des systèmes de contrôle et de journalisation <a href="https://owasp.org/Top10/fr/A09_2021-Security_Logging_and_Monitoring_Failures/"><Badge type="tip" text="Documentation" /></a>
+## 9️⃣ A09:2021 - Carence des systèmes de contrôle et de journalisation <a href="https://owasp.org/Top10/fr/A09_2021-Security_Logging_and_Monitoring_Failures/" target="_blank"><Badge type="tip" text="Documentation" /></a>
 
 ::: warning En-tête
 <b>
@@ -300,7 +300,7 @@ Tester la journalisation et la surveillance peut être un peu compliqué. Normal
 <li>L’application est incapable de détecter, de générer des remontées d'information et des alertes en temps réel, ou assimilé, en cas d’attaque active.</li>
 :::
 
-## 9️⃣ <u>Solutions de sécurisation</u> <a href="https://owasp.org/Top10/fr/A09_2021-Security_Logging_and_Monitoring_Failures/#comment-sen-premunir"><Badge type="tip" text="Documentation" /></a>
+## 9️⃣ <u>Solutions de sécurisation</u> <a href="https://owasp.org/Top10/fr/A09_2021-Security_Logging_and_Monitoring_Failures/#comment-sen-premunir" target="_blank"><Badge type="tip" text="Documentation" /></a>
 
 ::: danger
 <li><b>s'assurer que toutes les authentifications, les erreurs de contrôle d'accès et de contrôle des entrées côté serveur sont enregistrées, avec un contexte utilisateur suffisant pour identifier les comptes suspects ou malveillants, et conservées suffisamment longtemps pour permettre une analyse légale différée.</b></li><br>
@@ -309,13 +309,13 @@ Tester la journalisation et la surveillance peut être un peu compliqué. Normal
 </b></li><br>
 :::
 
-## 🔟 A010:2021 - Falsification de requête côté serveur (SSRF) <a href="https://owasp.org/Top10/fr/A09_2021-Security_Logging_and_Monitoring_Failures/"><Badge type="tip" text="Documentation" /></a>
+## 🔟 A010:2021 - Falsification de requête côté serveur (SSRF) <a href="https://owasp.org/Top10/fr/A09_2021-Security_Logging_and_Monitoring_Failures/" target="_blank"><Badge type="tip" text="Documentation" /></a>
 
 ::: warning En-tête
 <b>Imagine une application web comme un super-héros qui peut aller chercher des choses sur Internet pour toi. Normalement, cette application doit être prudente et vérifier l'endroit d'où elle obtient les choses. Mais parfois, il y a une faille appelée SSRF. Cela se produit lorsque l'application ne vérifie pas bien l'adresse que tu lui donnes. Et devine quoi ? Cela permet à un méchant pirate informatique de forcer l'application à aller chercher des choses dans des endroits auxquels elle n'est pas censée accéder. Même si ces endroits sont normalement protégés par des choses comme des murs de feu (pare-feu), des tunnels secrets (VPN) ou des gardes (ACL) qui contrôlent l'accès au réseau. C'est comme si l'application était trompée et envoyée dans un endroit dangereux sans le savoir.</b>
 :::
 
-## 🔟 <u>Solutions de sécurisation</u> <a href="https://owasp.org/Top10/fr/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/#comment-sen-premunir"><Badge type="tip" text="Documentation" /></a>
+## 🔟 <u>Solutions de sécurisation</u> <a href="https://owasp.org/Top10/fr/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/#comment-sen-premunir" target="_blank"><Badge type="tip" text="Documentation" /></a>
 
 
 ## 🌐 Couche réseau :

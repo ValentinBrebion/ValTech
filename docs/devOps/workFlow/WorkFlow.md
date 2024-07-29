@@ -2,7 +2,7 @@
 
 On va prendre l'exemple de Github Action, crée en octobre 2018, Github met en place un service de déploiement en continu intégré à Github. Ce service permet d'automatiser divers aspects du cycle de dévelopmement lié à l'application.
 
-La marketPlace ou vous retrouverez l'ensemble des workflows disponible : <a href="https://github.com/marketplace?type=actions"><Badge type="tip" text="Documentation" /></a>
+La marketPlace ou vous retrouverez l'ensemble des workflows disponible : <a href="https://github.com/marketplace?type=actions" target="_blank"><Badge type="tip" text="Documentation" /></a>
 ## Comprendre les concepts clés
 ### <u>Un workflow</u>
 *<li>Un workflow est un processus automatisé défini dans un fichier YAML. Chaque workflow peut avoir un ou plusieurs jobs.</li>*
@@ -126,4 +126,4 @@ Utilisez le cache pour accélérer les workflows, par exemple pour les dépendan
       ${{ runner.os }}-node-
 ```
 # Ressources: 
-Liens vers la documentation officelle :<u><a href="docs.github.com/actions"><Badge type="info" text="Documentation" /></a></u>
+Liens vers la documentation officelle :<u><a href="docs.github.com/actions" target="_blank"><Badge type="info" text="Documentation" /></a></u>
