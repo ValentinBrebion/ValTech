@@ -84,7 +84,7 @@ export default defineConfig({
                 {text: 'Vuejs 3',
                   collapsed: true, 
                     items: [
-                      {text: 'Intro Vuejs3', link:'/language/js/vuejs/vuejs3/IntroductionVuejs3'}
+                      {text: 'Intro Vuejs3', link:'/language/js/vuejs/vuejs3/IntroVuejs3'}
                     ]
               },
               {text: '✅ les bonnes pratiques', link:'/language/js/vuejs/BonnePratiquesVueJS'},
