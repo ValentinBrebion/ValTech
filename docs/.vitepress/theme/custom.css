@@ -1,10 +1,15 @@
 /* .vitepress/theme/custom.css */
 :root {
-    --vp-c-brand: #646cff;
+    --vp-button-brand-bg: #ae00ff;
     --vp-c-brand-light: #747bff;
-    --vp-c-brand-hover: #ff0000;
+    --vp-button-brand-hover-bg: #18a7d6;
     --vp-home-hero-name-color: transparent;
+    --vp-button-brand-hover-border: transparent;
     --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #ae00ff, #18a7d6);
+    --vp-button-brand-border: transparent; 
+
+    /*## custom content ##*/
+    --vp-code-copy-copied-text-content: 'Copié !';
   }
 .color-danger {
   color:white;

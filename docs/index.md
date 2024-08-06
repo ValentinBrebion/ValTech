@@ -9,17 +9,17 @@ hero:
   image:
   actions:
     - theme: brand
-      text: découvrir un langage
+      text: découvrir
       link: /language/git/git
     - theme: alts
       text: GitHub
       link: https://github.com/ValentinBrebion
  
 features:
-  - icon: 👀  
+  - icon: 💡  
     title: Dernières actualités
-    details: La curiosité pour un développeur est un élément essentiel pour son évolution. Des devtools seront mis en ligne par catégories
-    link: '/DevTools/PWA'
+    details: Jetez un coup d'oeil au tout dernier article mis en ligne, n'ayez pas peur et cliquez !
+    link: '/language/PHP/Symfony/InstallationSymfony'
   - icon: 👀  
     title: Curiosité
     details: La curiosité pour un développeur est un élément essentiel pour son évolution. Des devtools seront mis en ligne par catégories
