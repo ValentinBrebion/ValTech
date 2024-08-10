@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: découvrir
-      link: /language/git/git
+      link: /welcome
     - theme: alts
       text: GitHub
       link: https://github.com/ValentinBrebion
