@@ -17,3 +17,34 @@
 .italic {
  font-style: italic;
 }
+
+/*#### custom welcome button  ####*/
+.buttonstyle {
+border-radius: 8px;
+text-align: center;
+display: inline-block;
+padding: 1rem 2rem;
+cursor: pointer;
+background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+letter-spacing: 2px;
+position:relative;
+overflow:hidden;
+margin: 0 20px;
+}
+
+.buttonstyle:before {
+content: "";
+position: absolute;
+height: 150px;
+width: 50px;
+background : #fff;
+left: -55px;
+top: -40px;
+transform: rotate(37deg);
+transition: all .3s;
+opacity: 0.3;
+}
+
+.buttonstyle:hover:before {
+left:95%;
+}
