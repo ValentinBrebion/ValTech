@@ -7,6 +7,7 @@ hero:
   name: "ValTech"
   tagline: Un site personnel et professionnel de language informatique
   image:
+        src: /logo-ico-valtech.ico
   actions:
     - theme: brand
       text: découvrir
@@ -27,10 +28,3 @@ features:
     title: Langage
     details: Les langages informatiques évoluent tous les jours. Un développeur ce doit être rigoureux quant à la qualité et à la maintenabilité de son code.
 ---
-
-
-      
-
- 
-
-

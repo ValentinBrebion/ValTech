@@ -10,6 +10,9 @@
 
     /*## custom content ##*/
     --vp-code-copy-copied-text-content: 'Copié !';
+
+    --vp-home-hero-image-background-image: -webkit-linear-gradient(120deg, #ae00ff, #18a7d6);
+    --vp-home-hero-image-filter: blur(50px);
   }
 .color-danger {
   color:white;
