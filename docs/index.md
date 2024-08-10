@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: découvrir
-      link: welcome
+      link: /language/git/git
     - theme: alts
       text: GitHub
       link: https://github.com/ValentinBrebion
@@ -27,3 +27,10 @@ features:
     title: Langage
     details: Les langages informatiques évoluent tous les jours. Un développeur ce doit être rigoureux quant à la qualité et à la maintenabilité de son code.
 ---
+
+
+      
+
+ 
+
+
