@@ -31,8 +31,8 @@ const members = [
 </script>
 
 
-<VPTeamPage>
-  <VPTeamPageTitle>
+<VPTeamPage style="margin:0px">
+  <VPTeamPageTitle style="padding-top:60px">
     <template #title>
       Bienvenue sur Valtech
     </template>
