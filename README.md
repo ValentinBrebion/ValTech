@@ -3,7 +3,7 @@
 > Je m'intéresse à divers technologie comme react, vue, symfony, scss et bien d'autres encore
 
 ## Derniers ajouts
-Ajout de la page de bienvenue au clique du bouton "Découvrir"
+Amélioration de la version ^1.0.0-beta.3 à la version 1.3.2 (latest). 
 
 ![ecran accueil](https://github.com/ValentinBrebion/ValTech/assets/104072748/2a1469e2-10a4-4ab7-a319-d937a1e2ad2b)
 
