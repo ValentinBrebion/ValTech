@@ -1,7 +1,7 @@
 ---
 next: 
-    text: '-> Introduction à DevOps'
-    link: 'cybersecurite/devops'
+    text: 'Introduction aux erreurs HTTP'
+    link: 'cybersecurite/httperror'
 prev: false
 ---
 
