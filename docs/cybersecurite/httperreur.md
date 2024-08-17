@@ -4,7 +4,7 @@
 
 ## Comprendre le fonctionnement des requêtes réseaux
 
-<img src="https://media.discordapp.net/attachments/1035253366995030166/1273698160258060432/erreurHTTP.png?ex=66bf8f59&is=66be3dd9&hm=a18dc55563386ecd7efef6afd9d3b89ee9643aafb4989d46505090e0d59bd119&=&format=webp&quality=lossless" alt="image requêtes réseaux">
+<img src="https://media.discordapp.net/attachments/1035253366995030166/1273698160258060432/erreurHTTP.png?ex=66c18999&is=66c03819&hm=628f27936e0d8078202745d6041a22e76d8c370cf50dc673ade403c0604b212e&=&format=webp&quality=lossless&width=537&height=408" alt="image requêtes réseaux">
 
 Prenons un cas d'exemple, vous êtes un utilisateur d'internet et vous recherchez la recette de la tarte aux pommes. Vous allez donc sur votre navigateur et vous cliquez sur le premier lien. Une fois sur la page vous naviguez à travers le site. Chaque clique représente en réalité une requête réseau envoyée depuis votre ordinateur vers le serveur ou est hébergé le site internet. Le serveur va traiter votre demande (on dit que vous intérrogez le serveur) et vous renvoi une réponse soit positive soit négative en fonction de la disponibilité de cette ressource. C'est de cette réponse que nous recevrons le code HTTP.
 
