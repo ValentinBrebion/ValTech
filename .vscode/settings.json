@@ -1,0 +1,5 @@
+{
+    "codeium.searchMaxWorkspaceFileCount": 2000,
+    "codeium.enableExplainProblem": false,
+    "codeium.enableInComments": false
+}
