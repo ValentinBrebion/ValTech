@@ -21,47 +21,90 @@ WordPress est disponible en deux versions : <a href="wordpress.com" target="_bla
 :::
 
 ## II. Découverte de l'administration de WordPress
-Accès à l’administration
+### Accès à l’administration
 
+```
 URL : https://nom-domaine.ext/wp-admin
-Interface d’administration
+``` 
 
-Types de contenus : Articles, Catégories, Étiquettes, Commentaires, Médias, Pages
-Gutenberg
+### Interface d’administration
+<br>
+<img src="/wordpress/tableau-de-bord-wordpress.webp" alt="tableau-de-bord-wordpress">
 
-Nouvel éditeur de contenu
-Tutoriels et ressources pour Gutenberg
-Ajouter/Modifier du contenu
+### Types de contenus : 
+Wordpress permet aux utilisateurs de créer du contenu selon leurs besoins. Parmis les possibilités de contenus, on retrouve :
+- Articles
+- Catégories
+- Étiquettes
+- Commentaires
+- Médias 
+- Pages
 
-Options de publication
-Organisation des contenus : Catégories, Étiquettes, Taxonomies
+### Accès à la démo de Gutenberg
+
+<a href="https://fr.wordpress.org/gutenberg/" target="_blank">Accéder à la démo</a>
+
+### Nouvel éditeur de contenu
+#### Tutoriels et ressources pour Gutenberg
+
+Organisation des contenus :
+- Catégories 
+- Étiquettes 
+- Taxonomies
+
 Les pages
+::: details Modèle de page
+Un Modèle de page WordPress (ou "page template" en anglais) est un fichier PHP utilisé dans un thème WordPress pour définir la mise en page et le style d'une page spécifique ou d'un groupe de pages. Contrairement aux articles, qui utilisent généralement un modèle unique, les pages dans WordPress peuvent utiliser des modèles personnalisés pour afficher le contenu de manière différente.
+### Exemple: 
+```php
+<?php
+/*
+Template Name: Nom du Modèle
+*/
+```
+:::
+- Les médias
 
-Hiérarchie, Modèle de page
-Les médias
+- Images, Vidéo, Son, PDF, etc.
+- Éditeur d’images
 
-Images, Vidéo, Son, PDF, etc.
-Éditeur d’images
+- Fonctions de base
+- Les thèmes <a href="Childrentheme"><Badge type="tip" text="Voir partie thème enfant" /></a>
 
-Fonctions de base
-Les thèmes
+- Gratuit, payant, personnalisation, thème enfant
+- Les menus
+::: details Les menus
+Un Modèle de page WordPress (ou "page template" en anglais) est un fichier PHP utilisé dans un 
+Les menus dans WordPress sont un élément clé de la navigation d'un site web, permettant aux utilisateurs d'accéder facilement aux différentes pages, catégories, liens, et autres contenus importants.
+### Intégration: 
+```php
+//fichier functions.php
+<?php
+function ajouter_menu() {
+    register_nav_menu('zeta_menu', 'Menu principal');
+}
+?>
+```
+*Le premier paramètre est le nom que vous avez donné au menu dans worpress et le deuxième paramètre est une description* <a href="https://capitainewp.io/formations/developper-theme-wordpress/menus-moteur-recherche/#:~:text=Déclarer%20un%20emplacement%20de%20menu,-On%20va%20maintenant&text=On%20vient%20de%20déclarer%20nos,l%27assigner%20à%20notre%20emplacement." target="_blank"><Badge type="tip" text="Voir plus d'information" /></a>
+:::
 
-Gratuit, payant, personnalisation, thème enfant
-Les menus
+:::details Les widgets
+Les widgets WordPress sont de petits blocs de contenu ou de fonctionnalités que vous pouvez ajouter à diverses zones de votre site web, comme les barres latérales, le pied de page, ou d'autres zones désignées par votre thème. Ils permettent d'ajouter rapidement des éléments interactifs ou informatifs sans avoir besoin de coder.
+Intégration :
+```php
+//fichier functions.php
+add_action('wp_dashboard_setup','custom_dashboard');
 
-Créer un menu, Associer le menu à l’emplacement
-Les widgets
+function custom_dashboard() {
+global $wp_meta_boxes;
+wp_add_dashboard_widget('widget_id', 'Titre du
+widget', 'custom_dashboard_help');
+}
+function custom_dashboard_help() {
+echo '<p>contenu du widget</p>';
+}
+```
+:::
 
-Disponibilité, création, emplacements
-Les extensions
-
-Fonctionnalités, installation, précautions
-Les utilisateurs
-
-Rôles : Administrateur, Éditeur, Auteur, Contributeur, Abonné
-Les permaliens
-
-Gestion, configuration, fichier .htaccess
-Et plus encore
-
-Formats d’articles, Champs personnalisés, Import/Export des données
+## Ressources: 
+Captain W : <u><a href="https://capitainewp.io" target="_blank"><Badge type="warning" text="Voir la ressource" /></a></u>
