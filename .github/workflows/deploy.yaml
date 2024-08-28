@@ -31,31 +31,31 @@ jobs:
           path: docs/.vitepress/dist
 
   deploy:
-  runs-on: ubuntu-latest
-  needs: [build]
-  steps:
-    - name: Start deployment
-      uses: bobheadxi/deployments@v1
-      id: deployment
-      with:
-        env: production
-        step: start
+    runs-on: ubuntu-latest
+    needs: [build]
+    steps:
+      - name: Start deployment
+        uses: bobheadxi/deployments@v1
+        id: deployment
+        with:
+          env: production
+          step: start
 
-    - name: Deploy to Netlify
-      uses: South-Paw/action-netlify-cli@v2
-      id: netlify
-      with:
-        args: deploy --json --prod --dir './docs/.vitepress/dist' --message 'production [${{ github.sha }}]'
-      env:
-        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      - name: Deploy to Netlify
+        uses: South-Paw/action-netlify-cli@v2
+        id: netlify
+        with:
+          args: deploy --json --prod --dir './docs/.vitepress/dist' --message 'production [${{ github.sha }}]'
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
 
-    - name: Finish deployment
-      uses: bobheadxi/deployments@v1
-      if: always()
-      with:
-        env: production
-        step: finish
-        status: ${{ job.status }}
-        deployment_id: ${{ steps.deployment.outputs.deployment_id }}
-        env_url: ${{ steps.deployment.outputs.env_url }}
+      - name: Finish deployment
+        uses: bobheadxi/deployments@v1
+        if: always()
+        with:
+          env: production
+          step: finish
+          status: ${{ job.status }}
+          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+          env_url: ${{ steps.deployment.outputs.env_url }}
