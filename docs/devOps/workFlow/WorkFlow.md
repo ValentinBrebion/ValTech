@@ -126,4 +126,4 @@ Utilisez le cache pour accélérer les workflows, par exemple pour les dépendan
       ${{ runner.os }}-node-
 ```
 # Ressources: 
-Liens vers la documentation officelle :<u><a href="docs.github.com/actions" target="_blank"><Badge type="info" text="Documentation" /></a></u>
+Liens vers la documentation officelle :<u><a href="https://docs.github.com/fr/actions" target="_blank"><Badge type="info" text="Documentation" /></a></u>
