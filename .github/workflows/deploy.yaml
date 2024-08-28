@@ -57,4 +57,4 @@ jobs:
           step: finish
           status: ${{ job.status }}
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
-          env_url: ${{ fromJson(steps.netlify.outputs.NETLIFY_OUTPUT).url }}
+          env_url: ${{ steps.deployment.outputs.env_url }}
