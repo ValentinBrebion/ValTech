@@ -52,6 +52,7 @@ jobs:
 
   # Deployment job
   deploy:
+    runs-on: ubuntu-latest
     steps:
       - name: Start deployment
         uses: bobheadxi/deployments@v1
