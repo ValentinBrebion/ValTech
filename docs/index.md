@@ -23,10 +23,14 @@ features:
     link: '/cybersecurite/httperreur'
   - icon: 👀  
     title: Curiosité
-    details: La curiosité pour un développeur est un élément essentiel pour son évolution. Des devtools seront mis en ligne par catégories
-  - icon: 📖
+    details: La curiosité pour un développeur est un élément essentiel pour son évolution. Des devtools seront mis en ligne par catégories.
+  - icon: 📝
     title: Langage
     details: Les langages informatiques évoluent tous les jours. Un développeur ce doit être rigoureux quant à la qualité et à la maintenabilité de son code.
+  - icon: 📖
+    title: Droits informatique
+    details: Internet est vaste... et des limitations doivent être mises en place pour réglementer et protéger les utilisateurs.
+    link: '/laws/definitions/electronicProof'
 ---
 
 <script setup>
