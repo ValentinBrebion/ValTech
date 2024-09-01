@@ -30,6 +30,13 @@ export default defineConfig({
   title: "ValTech",
   description: "Site personnel et professionel dans lequel sera documenté les différents langages que je verrais ou que j'ai vu ainsi qu'une partie cybersécurité et devtools",
   themeConfig: {
+    notFound: {
+      title: 'Oups ! tu t\'es perdu ?',
+      quote: "Ne t'inquiète pas, tout a été configuré pour retourner sur le site en toute sécurité", // set to '' to hide
+      linkLabel: 'Retourner à l\'accueil',
+      linkText: 'Sauve moi !',
+      code: '404'
+    },
     smoothScroll: true,
     outlineTitle: 'Références',
     logo:'https://media.discordapp.net/attachments/1035253366995030166/1083390653897125938/logo_sans_texte-removebg-preview.png?ex=65bba5ac&is=65a930ac&hm=41c7f0f7753ced3c316d6ac84755dac82472533e56a2a8090a77cfc1457ce96c&=&format=webp&quality=lossless',
