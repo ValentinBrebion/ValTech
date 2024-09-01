@@ -29,7 +29,7 @@ features:
     details: Les langages informatiques évoluent tous les jours. Un développeur ce doit être rigoureux quant à la qualité et à la maintenabilité de son code.
   - icon: 📖
     title: Droits informatique
-    details: Internet est vaste... et des limitations doivent être mises en place pour réglementer et protéger les utilisateurs.
+    details: Internet est vaste... et des limitations doivent être mises en place pour réglementer son utilisation et protéger les utilisateurs.
     link: '/laws/definitions/electronicProof'
 ---
 

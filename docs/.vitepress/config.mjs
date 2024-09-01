@@ -174,7 +174,7 @@ export default defineConfig({
             collapsed: true,
             items: [
               {
-                text:'Le droit de la preuve éléctronique', link:'/laws/definitions/electronicProof'
+                text:'Le droit de la preuve éléctronique', link:'/laws/definitions/preuveElectronique'
               }
             ]
           }

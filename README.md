@@ -3,7 +3,7 @@
 > Je m'intéresse à divers technologie comme react, vue, symfony, scss et bien d'autres encore
 
 ## Derniers ajouts
-Amélioration du contenu wordpress. 
+V1.5.1 : Ajout de la nouvelle section: Réglementations et lois informatique !
 
 ![ecran accueil](https://github.com/ValentinBrebion/ValTech/assets/104072748/2a1469e2-10a4-4ab7-a319-d937a1e2ad2b)
 
