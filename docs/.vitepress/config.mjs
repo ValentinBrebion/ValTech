@@ -165,6 +165,20 @@ export default defineConfig({
               ]
             }
         ]
+      },
+      {
+        text: 'Droit Info',
+        items: [
+          {
+            text:'Définitions',
+            collapsed: true,
+            items: [
+              {
+                text:'Le droit de la preuve éléctronique', link:'/laws/definitions/preuveElectronique'
+              }
+            ]
+          }
+        ]
       }
     ],
     
