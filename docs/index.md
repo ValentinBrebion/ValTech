@@ -30,7 +30,7 @@ features:
   - icon: 📖
     title: Droits informatique
     details: Internet est vaste... et des limitations doivent être mises en place pour réglementer son utilisation et protéger les utilisateurs.
-    link: '/laws/definitions/electronicProof'
+    link: '/laws/definitions/preuveElectronique'
 ---
 
 <script setup>
