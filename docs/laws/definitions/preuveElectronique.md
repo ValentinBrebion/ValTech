@@ -61,7 +61,7 @@ Le code civil nous permet clairement de définir la preuve éléctronique cepend
 ## III- Les moyens de la preuve électronique
 
 ### A- La signature électronique
-::: tip *Extrait de l'article 1316-4 du code civil :* <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006437841#:~:text=Article%201316-4%20(abrogé)&text=La%20signature%20nécessaire%20à%20la,identifie%20celui%20qui%20l%27appose." target="_blank"><Badge type="warning" text="plus d'information" /></a>
+::: tip *Extrait de l'article 1367 du code civil :* <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032042456" target="_blank"><Badge type="warning" text="plus d'information" /></a>
 ‹‹ La signature identifie celui qui l'appose et manifeste le consentement des parties aux obligations qui découlent de l'acte. Lorsqu'elle est électronique, elle consiste en l'usage d'un procédé fiable d'identification garantissant son lien avec l'acte avec l'acte auquel elle s'attache. ››
 :::
 
