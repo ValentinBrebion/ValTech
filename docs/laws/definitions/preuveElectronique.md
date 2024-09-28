@@ -1,6 +1,7 @@
 ---
-next: false
-
+next: 
+    text: 'Le nomage'
+    link: 'laws/definitions/nomage'
 prev: false
 ---
 
@@ -76,7 +77,7 @@ Seulement, 2 problèmes juridiques se posent pour qu'une signature soit réel:
 
 ::: code-group
 
-```L'identification de la personne
+```identification de la personne
 La problématique est de pouvoir vérifier l'identité de l'auteur de 
 la signature. Pour palier ce problème la, l'auteur doit se munir d'un 
 certificat de signature éléctronique. Il est délivré après la vérification
@@ -84,7 +85,7 @@ de l'identité de la personne par L'ACC (Autorité de Certification de
 Confiance).
 ```
 
-```L'intégrité des informations
+```intégrité des informations
 La garantie de l'intégrité de la preuve électronique est assurée par 
 l'utilisation d'un algorythme permettant de vérifier, à l'arrivée du
 message signé électroniquement, que celui-ci n'a pas été modifié. On

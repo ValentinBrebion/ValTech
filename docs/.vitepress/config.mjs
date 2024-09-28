@@ -182,6 +182,9 @@ export default defineConfig({
             items: [
               {
                 text:'Le droit de la preuve éléctronique', link:'/laws/definitions/preuveElectronique'
+              },
+              {
+                text:'Normes et standards', link:'/laws/definitions/normeandstandards'
               }
             ]
           }
