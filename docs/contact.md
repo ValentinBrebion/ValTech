@@ -1,23 +1,14 @@
-# par Email
----
-<form 
-  name="contact" 
-  method="POST" 
-  data-netlify="true"
-  onSubmit="submit"
-  >
+<form name="contact" action="POST" data-netlify="true">
   <p>
-    <label for="name">Votre nom <input type="text" name="name" /></label>
+    <label>Your Name: <input type="text" name="name" /></label>
   </p>
   <p>
-    <label for="prename">Your prénom: <input type="text" name="prename" /></label>
-  </p>
-  <p>
-    <label for="email">Your Email: <input type="email" name="email" id="email"/></label>
+    <label>Your Email: <input type="email" name="email" /></label>
   </p>
   <p>
     <label>Message: <textarea name="message"></textarea></label>
   </p>
+  <div data-netlify-recaptcha="true"></div>
   <p>
     <button type="submit">Send</button>
   </p>
