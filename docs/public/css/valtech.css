@@ -47,3 +47,42 @@ opacity: 0.3;
 .buttonstyle:hover:before {
 left:95%;
 }
+
+/*#### contact form netlify ####*/
+.row {
+display: flex;
+justify-content: space-between;
+}
+
+.column {
+flex: 1;
+margin-right: 10px; 
+}
+
+.column:last-child {
+margin-right: 0;
+}
+.val__inputName {
+width: 90%;
+background-color: #fff;
+color: black;
+border-radius: 5%;
+padding: 4%;
+}
+.val__input {
+    padding: 4%;
+}
+.val__input, .val__message {
+width: 100%;
+box-sizing: border-box;
+background-color: #fff;
+color: black;
+border-radius: 5%; 
+}
+
+.val__message {
+height: 150px; 
+resize: none;
+padding:4%;
+}
+/*#### end contact form netlify ####*/
