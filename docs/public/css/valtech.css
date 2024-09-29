@@ -66,7 +66,7 @@ margin-right: 0;
 width: 90%;
 background-color: #fff;
 color: black;
-border-radius: 5%;
+border-radius: 5px;
 padding: 4%;
 }
 .val__input {
@@ -77,7 +77,7 @@ width: 100%;
 box-sizing: border-box;
 background-color: #fff;
 color: black;
-border-radius: 5%; 
+border-radius: 5px; 
 }
 
 .val__message {
