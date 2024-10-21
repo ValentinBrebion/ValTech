@@ -35,10 +35,7 @@ jobs:
           GH_TOKEN: ${{ secrets.VALTECH_GITHUB_TOKEN }}
         with:
           title: "Release v- 1.5.0"
-          tag: "First release"
-          body: "Nouveautés :\n\n- Création du fichier release"
-          draft: false
-          prerelease: false
+          tag: "Nouveautés :\n\n- Création du fichier release"
 
   deploy:
     runs-on: ubuntu-latest
