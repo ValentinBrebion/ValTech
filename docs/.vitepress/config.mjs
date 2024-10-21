@@ -56,7 +56,7 @@ export default defineConfig({
     
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      {text: 'besoin d\'informations ?', link: 'contact'},
+      {text: 'besoin d\'informations ?', link: 'contactForm/contact'},
       {text: 'Cybersécurité', link: '/cybersecurite/OWASP'},
       {text: 'DevTools', link: '/DevTools/DevSite'},
       {text: 'Langage', items: [ {text: 'Git', link: 'language/git/git'}, {text: 'Laravel', link:'language/PHP/Laravel/Laravel'} ]}
