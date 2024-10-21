@@ -29,6 +29,16 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs/.vitepress/dist
+      - name: Create a Release
+        uses: elgohr/Github-Release-Action@v5
+        env:
+          GH_TOKEN: ${{ secrets.VALTECH_GITHUB_TOKEN }}
+        with:
+          title: "Release v- 1.5.0"
+          tag: "First release"
+          body: "Nouveautés :\n\n- Création du fichier release"
+          draft: false
+          prerelease: false
 
   deploy:
     runs-on: ubuntu-latest
