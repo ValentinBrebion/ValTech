@@ -5,7 +5,7 @@ prev: false
 
 # Contacte moi !
 
-<form name="contact" action="POST" action="/success" data-netlify="true" data-netlify-recaptcha="true">
+<form name="contact" action="/success" data-netlify="true" data-netlify-recaptcha="true">
   <div class="row">
     <p class="column">
       <label>Ton nom: </label><br>
