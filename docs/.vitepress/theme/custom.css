@@ -17,3 +17,17 @@
 .color-danger {
   color:white;
 }
+
+.dark [data-app="VPSidebar"] {
+  background-color: #121116;
+  @media (min-width: 1264px) {
+    background-color: transparent;
+  }
+}
+
+:not(.dark) [data-app="VPSidebar"] {
+  background-color: white;
+  @media (min-width: 1264px) {
+    background-color: transparent;
+  }
+}
