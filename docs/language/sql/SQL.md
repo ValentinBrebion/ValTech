@@ -1,5 +1,7 @@
 ---
-next: false
+next: 
+    text: 'TypeScript - Intro'
+    link: 'language/TypeScript/IntroTypeScript'
 prev: 
     text: 'Thème Enfant - Wordpress'
     link: 'language/PHP/Wordpress/Childrentheme'
