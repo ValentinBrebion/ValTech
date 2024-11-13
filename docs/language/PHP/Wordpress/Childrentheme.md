@@ -1,5 +1,7 @@
 ---
-next: false
+next: 
+    text: 'SQL'
+    link: 'language/sql/SQL'
 prev: 
     text: 'Introduction'
     link: 'language/PHP/Wordpress/IntroWordpress'

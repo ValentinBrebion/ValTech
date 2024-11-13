@@ -1,10 +1,19 @@
+---
+next: 
+    text: 'Services Informatiques'
+    link: 'cybersecurite/servicesInformatiques'
+prev: 
+    text: 'OWASP'
+    link: 'cybersecurite/OWASP'
+---
+
 # Les erreurs HTTP
 
 "Rooooohhh.. je suis encore tombé sur une 404 !". Ceci est la phrase d'une personne voulant accéder à une ressource mais celle-ci n'existe pas. Les erreurs peuvent être visible pour nous les utilisateurs ou bien par les développeurs mais comment les erreurs HTTP se produisent-elles et qu'elles sont-elles ? c'est ce que nous allons voir 😉
 
 ## Comprendre le fonctionnement des requêtes réseaux
 
-<img src="https://media.discordapp.net/attachments/1035253366995030166/1273698160258060432/erreurHTTP.png?ex=66c18999&is=66c03819&hm=628f27936e0d8078202745d6041a22e76d8c370cf50dc673ade403c0604b212e&=&format=webp&quality=lossless&width=537&height=408" alt="image requêtes réseaux">
+<img src="https://media.discordapp.net/attachments/1130139700510867587/1298428633148293200/httpnetwork.png?ex=67198765&is=671835e5&hm=7d8f8bce388ad4fbfb0271c7a3561e71670adc4c3d26bc79f55100fd43ccc82b&=&format=webp&quality=lossless&width=640&height=166" alt="image  requêtes réseaux">
 
 Prenons un cas d'exemple, vous êtes un utilisateur d'internet et vous recherchez la recette de la tarte aux pommes. Vous allez donc sur votre navigateur et vous cliquez sur le premier lien. Une fois sur la page vous naviguez à travers le site. Chaque clique représente en réalité une requête réseau envoyée depuis votre ordinateur vers le serveur ou est hébergé le site internet. Le serveur va traiter votre demande (on dit que vous intérrogez le serveur) et vous renvoi une réponse soit positive soit négative en fonction de la disponibilité de cette ressource. C'est de cette réponse que nous recevrons le code HTTP.
 
