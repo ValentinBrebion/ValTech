@@ -1,7 +1,7 @@
 ---
 next: 
     text: 'Introduction aux erreurs HTTP'
-    link: 'cybersecurite/httperror'
+    link: 'cybersecurite/httperreur'
 prev: false
 ---
 

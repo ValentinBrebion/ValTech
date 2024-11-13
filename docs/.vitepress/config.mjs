@@ -157,7 +157,8 @@ export default defineConfig({
         text: 'Cybersécurité',
         items: [
           {text: 'Règle OWASP 2021', link:'/cybersecurite/OWASP'},
-          {text: 'Erreur HTTP', link:'/cybersecurite/httperreur'}
+          {text: 'Erreur HTTP', link:'/cybersecurite/httperreur'},
+          {text: 'Services Informatiques', link:'/cybersecurite/servicesInformatiques'}
 
         ]
       },
