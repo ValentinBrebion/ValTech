@@ -20,7 +20,7 @@ Vue.js se concentre sur la construction de l'interface utilisateur (UI) et facil
 
 ## <u>Ses particularités</u>
 
-::: tip dcc
+::: tip Il y en a plusieurs 😜
 <u>**Composants :**</u> Vue.js encourage la création de composants réutilisables qui encapsulent la logique et l'apparence d'une partie de l'interface utilisateur. Cela permet de structurer efficacement une application en morceaux modulaires.
 
 <u>**Liaison de données bidirectionnelle :**</u> *Vue.js offre une liaison de données bidirectionnelle entre les composants et les données, ce qui signifie que lorsque les données changent, l'interface utilisateur est automatiquement mise à jour, et vice versa.*

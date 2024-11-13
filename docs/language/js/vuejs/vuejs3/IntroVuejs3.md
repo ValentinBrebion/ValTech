@@ -65,7 +65,7 @@ Les composables dans Vue 3 sont des fonctions réutilisables basées sur la Comp
 
 ## Fragments, Teleport, Suspense
 
-::: warning feature 
+::: warning features
 - <u><h4>Fragments :</h4></u> Possibilité de retourner plusieurs éléments à la racine d’un composant sans avoir besoin d’un élément parent unique. lien: <a href="https://v3-migration.vuejs.org/new/fragments.html" target="_blank"><Badge type="danger" text="Documentation" /></a>
 - <u><h4>Teleport :</h4></u> Permet de rendre des éléments DOM dans une autre partie de l’arbre DOM, en dehors de la hiérarchie du composant. lien: <a href="https://www.monterail.com/blog/whats-new-in-vue-3-the-most-interesting-new-features#teleport" target="_blank"><Badge type="danger" text="Documentation" /></a>
 - <u><h4>Suspense :</h4></u> Gère le rendu asynchrone des composants, utile pour afficher un état de chargement lorsque des données ou des composants sont encore en cours de chargement. lien: <a href="https://www.monterail.com/blog/whats-new-in-vue-3-the-most-interesting-new-features#experimental-suspense" target="_blank"><Badge type="danger" text="Documentation" /></a>
