@@ -59,7 +59,8 @@ export default defineConfig({
       {text: 'besoin d\'informations ?', link: 'contactForm/contact'},
       {text: 'Cybersécurité', link: '/cybersecurite/OWASP'},
       {text: 'DevTools', link: '/DevTools/DevSite'},
-      {text: 'Langage', items: [ {text: 'Git', link: 'language/git/git'}, {text: 'Laravel', link:'language/PHP/Laravel/Laravel'}, {text: 'SQL', link:'language/sql/SQL'} ]}
+      {text: 'Langage', items: [ {text: 'Git', link: 'language/git/git'}, {text: 'Laravel', link:'language/PHP/Laravel/Laravel'}, {text: 'SQL', link:'language/sql/SQL'} ]},
+      {text: '1.6.0', link: '/index' },
     ],
 
     sidebar: [
