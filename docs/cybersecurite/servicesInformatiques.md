@@ -17,7 +17,7 @@ La fraude informatique est un délit consistant à utiliser ou à falsifier des 
 ::: details Sanctions {open}
 ***Les sanctions pour fraude informatique varient selon la gravité des faits :***
 - Peine d'emprisonnement (jusqu'à 5 ans voire plus dans certains cas),
-- Amende (pouvant atteindre 375 000 euros ou plus),
+- Amende (pouvant atteindre 300 000 euros ou plus),
 - Interdictions professionnelles,
 - Confiscation de biens utilisés pour commettre l'infraction.
 :::
@@ -27,7 +27,7 @@ C'est une technique de fraude dont le but est de leurrer l'internaute pour l'inc
 
 ::: danger *Extrait de l'article 313-1 du code pénal :* <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418192" target="_blank"><Badge type="warning" text="plus d'information" /></a>
 ‹‹ L'escroquerie est le fait, soit par l'usage d'un faux nom ou d'une fausse qualité, soit par l'abus d'une qualité vraie, soit par l'emploi de manoeuvres frauduleuses, de tromper une personne physique ou morale et de la déterminer ainsi, à son préjudice ou au préjudice d'un tiers, à remettre des fonds, des valeurs ou un bien quelconque, à fournir un service ou à consentir un acte opérant obligation ou décharge. ››
-::: details Sanctions aggravées en cas de circonstances particulières
+::: details Sanctions aggravées en cas de circonstances aggravantes
 Les peines peuvent être aggravées dans certaines situations, comme :
 
 - <u>Si l’infraction est commise en bande organisée</u> : les peines d’emprisonnement et d’amende sont alourdies.
@@ -95,8 +95,8 @@ Représente toutes les actions ayant pour résultat la mise hors ligne d'un serv
 ::: danger *Extrait de l'article 323-2 du Code pénal :* <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939443" target="_blank"><Badge type="warning" text="plus d'information" /></a>
 ‹‹ Le fait d'entraver ou de fausser le fonctionnement d'un système de traitement automatisé de données est puni de cinq ans d'emprisonnement et de 150 000 € d'amende. ››
 ::: details Sanctions {open}
-- Peine d'emprisonnement : La production de faux est punie de 5 ans d’emprisonnement.
-- Amende : L’amende peut atteindre 150 000 euros.
+- Peine d'emprisonnement : La production de faux est puni de 5 ans d’emprisonnement.
+- Amende : L’amende peut atteindre 45 000 euros.
 :::
 
 ## Attaque Man in the Middle
@@ -105,7 +105,7 @@ Ce type de fraude se produit lorsqu'un hacker s'introduit dans une transaction e
 ::: danger *Extrait de l'article 323-2 du Code pénal :* <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939443" target="_blank"><Badge type="warning" text="plus d'information" /></a>
 ‹‹ Le fait d'entraver ou de fausser le fonctionnement d'un système de traitement automatisé de données est puni de cinq ans d'emprisonnement et de 150 000 € d'amende. ››
 ::: details Sanctions {open}
-- Peine d'emprisonnement : La production de faux est punie de 5 ans d’emprisonnement.
+- Peine d'emprisonnement : Fausser le fonctionnement d'un système de traitement automatisé est puni de 5 ans d'emprisonnement.
 - Amende : L’amende peut atteindre 150 000 euros.
 :::
 
@@ -131,7 +131,7 @@ On ne se rend pas réellement compte de l'impact global qu'une cyberattaque peut
 ::: code-group
 
 ```Financières
-La perte d'argenten raison des arrêts de la production, des heures de travail
+La perte d'argent en raison des arrêts de la production, des heures de travail
 perdues, le paiement des rançons, la perte des clients, la perte des parts 
 des marchés engendrant une baisse du chiffre d'affaire, le coût de restauration 
 des systèmes et de protection, coûts de communication pour regagner la confiance 
