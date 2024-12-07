@@ -75,4 +75,8 @@ Pour construire un persona, Notre Alan nous propose 5 types de variables:
 - ***Aide à la prise de décision***: dans la conception d'un produit.
 :::
 
+### Exemple:
+::: details Persona de Marie {open}
+<img src="https://media.discordapp.net/attachments/1130139700510867587/1315068113414258799/persona.png?ex=6756101f&is=6754be9f&hm=8742d996a73b3525293ec17939f75ce60818da5b88f3e4d978ead9631e651cca&=&format=webp&quality=lossless&width=911&height=644" alt="Persona de Marie ">
+:::
 ## Suite à la version 1.7
