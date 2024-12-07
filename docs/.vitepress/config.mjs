@@ -59,7 +59,8 @@ export default defineConfig({
       {text: 'besoin d\'informations ?', link: 'contactForm/contact'},
       {text: 'Cybersécurité', link: '/cybersecurite/OWASP'},
       {text: 'DevTools', link: '/DevTools/DevSite'},
-      {text: 'Langage', items: [ {text: 'Git', link: 'language/git/git'}, {text: 'Laravel', link:'language/PHP/Laravel/Laravel'}, {text: 'SQL', link:'language/sql/SQL'} ]},
+      {text: 'Langage', link:'/language/js/regex'},
+      {text: 'Design', link:'/design/introductionDesign'},
       {text: '1.6.0', link: '/index' },
     ],
 
@@ -155,14 +156,14 @@ export default defineConfig({
         ]
       },
       {
-        text: 'DevTools',
+        text: '🔧 DevTools',
         items: [
           {text: 'Outils Dev', link:'/DevTools/DevSite'},
           {text: 'PWA', link:'/DevTools/PWA'}
         ]
       },
       {
-        text: 'Cybersécurité',
+        text: '🛡️ Cybersécurité',
         items: [
           {text: 'Règle OWASP 2021', link:'/cybersecurite/OWASP'},
           {text: 'Erreur HTTP', link:'/cybersecurite/httperreur'},
@@ -171,7 +172,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'DevOps',
+        text: '🧰 DevOps',
         items: [
             {
               text: 'CI/CD',
@@ -185,7 +186,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Droit Info',
+        text: '📃 Droit Info',
         items: [
           {
             text:'Définitions',
@@ -193,6 +194,20 @@ export default defineConfig({
             items: [
               {
                 text:'Le droit de la preuve éléctronique', link:'/laws/definitions/preuveElectronique'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        text: '🎨 Design',
+        items: [
+          {
+            text:'Introduction',
+            collapsed: true,
+            items: [
+              {
+                text:'Introduction au design', link:'/design/introductionDesign'
               }
             ]
           }
