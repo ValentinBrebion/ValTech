@@ -74,3 +74,5 @@ Pour construire un persona, Notre Alan nous propose 5 types de variables:
 - ***Générer de l'affect et de l'empathie***: pour des utilisateurs parfois difficilement accessibles.
 - ***Aide à la prise de décision***: dans la conception d'un produit.
 :::
+
+## Suite à la version 1.7
