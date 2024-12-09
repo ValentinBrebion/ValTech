@@ -1,5 +1,7 @@
 ---
-next: false
+next: 
+    text: 'Workflows'
+    link: 'devOps/workFlow/WorkFlow'
 prev: 
     text: 'les erreurs HTTP'
     link: 'cybersecurite/httperreur'
