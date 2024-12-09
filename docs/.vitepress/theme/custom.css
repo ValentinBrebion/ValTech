@@ -1,6 +1,6 @@
 /* .vitepress/theme/custom.css */
 :root {
-    --vp-button-brand-bg: #2D3647;
+    --vp-button-brand-bg: #a342f9;
     --vp-c-brand-light: #747bff;
     --vp-button-brand-hover-bg: #4279E2;
     --vp-home-hero-name-color: transparent;
@@ -16,4 +16,18 @@
   }
 .color-danger {
   color:white;
+}
+
+.dark [data-app="VPSidebar"] {
+  background-color: #121116;
+  @media (min-width: 1264px) {
+    background-color: transparent;
+  }
+}
+
+:not(.dark) [data-app="VPSidebar"] {
+  background-color: white;
+  @media (min-width: 1264px) {
+    background-color: transparent;
+  }
 }

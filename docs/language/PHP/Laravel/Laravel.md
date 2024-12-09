@@ -1,8 +1,3 @@
----
-next: 
-    text: 'API'
-    link: '/language/PHP/API'
----
 
 # Intro Laravel
 

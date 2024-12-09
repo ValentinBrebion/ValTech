@@ -1,7 +1,5 @@
 ---
-next: 
-    text: 'API'
-    link: '/language/PHP/API'
+next: false
 prev: 
     text: 'Découverte de Laravel'
     link: '/language/PHP/Laravel/Laravel'

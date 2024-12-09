@@ -1,10 +1,7 @@
 ---
-next: 
-    text: 'Introduction au design'
-    link: 'design/introductionDesign'
-prev: 
-    text: 'Workflow'
-    link: 'devOps/workFlow/WorkFlow'
+next: false
+
+prev: false
 ---
 
 # La preuve éléctronique
