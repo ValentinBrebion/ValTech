@@ -1,3 +1,12 @@
+---
+next: 
+    text: 'Les droits de la preuve éléctronique'
+    link: 'laws/definitions/preuveElectronique'
+prev: 
+    text: 'services informatiques'
+    link: 'cybersecurite/servicesInformatiques'
+---
+
 # Comprendre les Workflows GitHub Actions
 
 On va prendre l'exemple de Github Action, crée en octobre 2018, Github met en place un service de déploiement en continu intégré à Github. Ce service permet d'automatiser divers aspects du cycle de dévelopmement lié à l'application.
