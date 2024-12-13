@@ -2,9 +2,7 @@
 next: 
     text: 'Installation de Symfony'
     link: 'language/PHP/Symfony/InstallationSymfony'
-prev: 
-    text: 'API'
-    link: 'language/PHP/API'
+prev: false
 ---
 # Introduction à Symfony
 
