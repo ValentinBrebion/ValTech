@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { version } from '../../version';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -52,7 +53,6 @@ export default defineConfig({
       provider: 'local'
     },
     darkModeSwitchLabel: 'Apparance',
-
     
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -61,7 +61,15 @@ export default defineConfig({
       {text: 'DevTools', link: '/DevTools/DevSite'},
       {text: 'Langage', link:'/language/js/regex'},
       {text: 'Design', link:'/design/introductionDesign'},
-      {text: '1.6.0', link: '/index' },
+      {
+        text: version, 
+        items: [
+        {
+          text: 'Changelog',
+          link:'https://github.com/ValentinBrebion/ValTech/blob/main/CHANGELOG.md'
+        }
+        ] 
+      },
     ],
 
     sidebar: [
