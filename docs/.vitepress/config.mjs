@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { version } from '../../version';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -52,14 +53,23 @@ export default defineConfig({
       provider: 'local'
     },
     darkModeSwitchLabel: 'Apparance',
-
     
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       {text: 'besoin d\'informations ?', link: 'contactForm/contact'},
       {text: 'Cybersécurité', link: '/cybersecurite/OWASP'},
       {text: 'DevTools', link: '/DevTools/DevSite'},
-      {text: 'Langage', items: [ {text: 'Git', link: 'language/git/git'}, {text: 'Laravel', link:'language/PHP/Laravel/Laravel'}, {text: 'SQL', link:'language/sql/SQL'} ]}
+      {text: 'Langage', link:'/language/js/regex'},
+      {text: 'Design', link:'/design/introductionDesign'},
+      {
+        text: version, 
+        items: [
+        {
+          text: 'Changelog',
+          link:'https://github.com/ValentinBrebion/ValTech/blob/main/CHANGELOG.md'
+        }
+        ] 
+      },
     ],
 
     sidebar: [
