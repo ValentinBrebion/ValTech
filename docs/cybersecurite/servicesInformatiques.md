@@ -17,7 +17,7 @@ La fraude informatique est un délit consistant à utiliser ou à falsifier des 
 ::: details Sanctions {open}
 ***Les sanctions pour fraude informatique varient selon la gravité des faits :***
 - Peine d'emprisonnement (jusqu'à 5 ans voire plus dans certains cas),
-- Amende (pouvant atteindre 375 000 euros ou plus),
+- Amende (pouvant atteindre 300 000 euros ou plus),
 - Interdictions professionnelles,
 - Confiscation de biens utilisés pour commettre l'infraction.
 :::
@@ -27,7 +27,7 @@ C'est une technique de fraude dont le but est de leurrer l'internaute pour l'inc
 
 ::: danger *Extrait de l'article 313-1 du code pénal :* <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418192" target="_blank"><Badge type="warning" text="plus d'information" /></a>
 ‹‹ L'escroquerie est le fait, soit par l'usage d'un faux nom ou d'une fausse qualité, soit par l'abus d'une qualité vraie, soit par l'emploi de manoeuvres frauduleuses, de tromper une personne physique ou morale et de la déterminer ainsi, à son préjudice ou au préjudice d'un tiers, à remettre des fonds, des valeurs ou un bien quelconque, à fournir un service ou à consentir un acte opérant obligation ou décharge. ››
-::: details Sanctions aggravées en cas de circonstances particulières
+::: details Sanctions aggravées en cas de circonstances aggravantes
 Les peines peuvent être aggravées dans certaines situations, comme :
 
 - <u>Si l’infraction est commise en bande organisée</u> : les peines d’emprisonnement et d’amende sont alourdies.
@@ -74,8 +74,8 @@ Usurper l'identité d'une personne ou utiliser des données permettant de l'iden
 ::: danger *Extrait de l'article 226-4-1 du Code pénal :* <a href="https://www.doctrine.fr/l/texts/codes/LEGITEXT000006070719/articles/LEGIARTI000023709201" target="_blank"><Badge type="warning" text="plus d'information" /></a>
 ‹‹ Le fait d'usurper l'identité d'un tiers ou de faire usage d'une ou plusieurs données de toute nature permettant de l'identifier en vue de troubler sa tranquillité ou celle d'autrui, ou de porter atteinte à son honneur ou à sa considération, est puni d'un an d'emprisonnement et de 15 000 € d'amende. ››
 ::: details Sanctions {open}
-- Peine d'emprisonnement : L’usurpation d’identité peut être punie de 1 an d’emprisonnement.
-- Amende : L'amende peut atteindre 15 000 euros
+- Peine d'emprisonnement : L’usurpation d’identité peut être puni de 1 an d’emprisonnement.
+- Amende : L'amende peut atteindre 45 000 euros
 :::
 
 ## Production de faux ou usage de faux
@@ -84,7 +84,7 @@ Produire ou utiliser de faux documents informatiques dans le but d'obtenir un dr
 ::: danger *Extrait de l'article 441-2 du Code pénal :* <a href="https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070719/LEGISCTA000006149854/" target="_blank"><Badge type="warning" text="plus d'information" /></a>
 ‹‹ Le faux commis dans un document délivré par une administration publique aux fins de constater un droit, une identité ou une qualité ou d'accorder une autorisation est puni de cinq ans d'emprisonnement et de 75 000 euros d'amende. ››
 ::: details Sanctions {open}
-- Peine d'emprisonnement : La production de faux est punie de 3 ans d’emprisonnement.
+- Peine d'emprisonnement : Fausser le fonctionnement d'un système de traitement automatisé est puni de 5 ans d'emprisonnement
 - Amende : L’amende peut atteindre 45 000 euros.
 - Usage de faux : L'usage de faux est également puni de 3 ans d’emprisonnement et de 45 000 euros d’amende.
 :::
@@ -131,7 +131,7 @@ On ne se rend pas réellement compte de l'impact global qu'une cyberattaque peut
 ::: code-group
 
 ```Financières
-La perte d'argenten raison des arrêts de la production, des heures de travail
+La perte d'argent en raison des arrêts de la production, des heures de travail
 perdues, le paiement des rançons, la perte des clients, la perte des parts 
 des marchés engendrant une baisse du chiffre d'affaire, le coût de restauration 
 des systèmes et de protection, coûts de communication pour regagner la confiance 
