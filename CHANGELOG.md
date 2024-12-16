@@ -1,4 +1,4 @@
-# [1.6.27]()
+# [1.6.27](https://github.com/ValentinBrebion/ValTech/commit/51ea4a0246bdcc25f3a90bef9ea0b1e0d4b90ee4) (2024-12-16)
 
 ### Improve Content
 - rebuild lost content
