@@ -165,14 +165,14 @@ export default defineConfig({
         ]
       },
       {
-        text: 'DevTools',
+        text: '🔧 DevTools',
         items: [
           {text: 'Outils Dev', link:'/DevTools/DevSite'},
           {text: 'PWA', link:'/DevTools/PWA'}
         ]
       },
       {
-        text: 'Cybersécurité',
+        text: '🛡️ Cybersécurité',
         items: [
           {text: 'Règle OWASP 2021', link:'/cybersecurite/OWASP'},
           {text: 'Erreur HTTP', link:'/cybersecurite/httperreur'},
@@ -181,7 +181,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'DevOps',
+        text: '🧰 DevOps',
         items: [
             {
               text: 'CI/CD',
@@ -195,7 +195,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Droit Info',
+        text: '📃 Droit Info',
         items: [
           {
             text:'Définitions',
@@ -203,6 +203,20 @@ export default defineConfig({
             items: [
               {
                 text:'Le droit de la preuve éléctronique', link:'/laws/definitions/preuveElectronique'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        text: '🎨 Design',
+        items: [
+          {
+            text:'Introduction',
+            collapsed: true,
+            items: [
+              {
+                text:'Introduction au design', link:'/design/introductionDesign'
               }
             ]
           }
