@@ -26,6 +26,12 @@ const members = [
     name: 'Cybersécurité',
     title: 'Retrouvez une liste de recommandations pour le dev',
     desc: '<a class="buttonstyle" style="color:white;" href="/cybersecurite/OWASP">Découvrir</a>'
+  },
+  {
+    avatar: '/design.webp',
+    name: 'Design',
+    title: 'Retrouvez des cours de design',
+    desc: '<a class="buttonstyle" style="color:white;" href="/design/introductionDesign">En cliquant ici :</a>'
   }
 ]
 </script>
