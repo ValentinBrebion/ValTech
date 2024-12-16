@@ -1,3 +1,9 @@
+# [1.6.27]()
+
+### Improve Content
+- rebuild lost content
+- add image for design content in welcome page
+
 # [1.6.26](https://github.com/ValentinBrebion/ValTech/commit/0b6ced41ce5eec7fc1158a1e15c599420ae4b780) (2024-12-09)
 
 ### Content

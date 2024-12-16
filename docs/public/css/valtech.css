@@ -27,7 +27,7 @@ text-align: center;
 display: inline-block;
 padding: 1rem 2rem;
 cursor: pointer;
-background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+background-image: linear-gradient(10deg, #4b505a, #2D3647 50%);
 letter-spacing: 2px;
 position:relative;
 overflow:hidden;
@@ -39,17 +39,18 @@ content: "";
 position: absolute;
 height: 150px;
 width: 50px;
-background : #fff;
+background: #fff;
 left: -55px;
 top: -40px;
 transform: rotate(37deg);
-transition: all .3s;
 opacity: 0.3;
+transition: left 0.3s ease; /* Transition uniquement pour "left" */
+}
+  
+.buttonstyle:hover:before {
+left: 100%; /* Animation fluide vers la droite */
 }
 
-.buttonstyle:hover:before {
-left:95%;
-}
 
 /*#### contact form netlify ####*/
 .row {
