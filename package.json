@@ -2,7 +2,8 @@
   "name": "valtech",
   "description": "valtech a powerful documentation for devs",
   "repository": "https://github.com/ValentinBrebion/ValTech",
-  "version": "1.6.26",
+  "version": "1.7.27",
+  "type": "module",
   "author": "Valentin Brebion",
   "devDependencies": {
     "esbuild": "^0.19.11",
