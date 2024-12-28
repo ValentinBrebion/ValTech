@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: découvrir
-      link: /fr/welcome
+      link: /welcome
     - theme: alts
       text: GitHub
       link: https://github.com/ValentinBrebion
@@ -20,7 +20,7 @@ features:
   - icon: 💡  
     title: Dernières actualités
     details: Jetez un coup d'oeil au tout dernier article mis en ligne, n'ayez pas peur et cliquez !
-    link: '/fr/cybersecurite/httperreur'
+    link: '/cybersecurite/httperreur'
   - icon: 👀  
     title: Curiosité
     details: La curiosité pour un développeur est un élément essentiel pour son évolution. Des devtools seront mis en ligne par catégories.
@@ -30,7 +30,7 @@ features:
   - icon: 📖
     title: Droits informatique
     details: Internet est vaste... et des limitations doivent être mises en place pour réglementer son utilisation et protéger les utilisateurs.
-    link: '/fr/laws/definitions/preuveElectronique'
+    link: '/laws/definitions/preuveElectronique'
 ---
 
 <script setup>
