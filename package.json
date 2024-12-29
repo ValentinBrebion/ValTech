@@ -2,7 +2,7 @@
   "name": "valtech",
   "description": "valtech a powerful documentation for devs",
   "repository": "https://github.com/ValentinBrebion/ValTech",
-  "version": "1.7.27",
+  "version": "1.7.30",
   "type": "module",
   "author": "Valentin Brebion",
   "devDependencies": {
