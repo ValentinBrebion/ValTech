@@ -1,7 +1,7 @@
 ---
 next: 
     text: 'API'
-    link: '/language/PHP/API'
+    link: 'fr/language/PHP/API'
 ---
 
 # Intro Laravel

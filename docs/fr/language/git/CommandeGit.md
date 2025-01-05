@@ -2,7 +2,7 @@
 next: false
 prev: 
     text: 'Introduction à Git'
-    link: 'language/git/git'
+    link: 'fr/language/git/git'
 ---
 
 # Les Commandes de Git

@@ -3,7 +3,7 @@ editLink: false # Will overwrite 'editLinks' from themeConfig
 prev: false # Will overwrite 'prevLinks' property from themeConfig
 next:
     text: 'Commande Git'
-    link: 'language/git/CommandeGit' # Will overwrite 'nextLinks' property from themeConfig
+    link: 'fr/language/git/CommandeGit' # Will overwrite 'nextLinks' property from themeConfig
 lastUpdated: true
 ---
 

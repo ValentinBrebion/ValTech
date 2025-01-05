@@ -2,7 +2,7 @@
 next: false
 prev: 
     text: 'Découverte de Laravel'
-    link: '/language/PHP/Laravel/Laravel'
+    link: 'fr/language/PHP/Laravel/Laravel'
 ---
 
 # <u>Introduction au MVC</u>
