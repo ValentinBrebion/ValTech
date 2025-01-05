@@ -5,7 +5,7 @@ layout: home
 
 hero:
   name: "ValTech"
-  tagline: Un site personnel et professionnel de language informatique
+  tagline: Un site personnel et professionnel de langage informatique
   image:
         src: /logo-ico-valtech.ico
   actions:

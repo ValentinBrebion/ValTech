@@ -30,7 +30,13 @@ function frSidebar(): DefaultTheme.SidebarItem[] {
         {
             text: 'langage de programmation',
             items: [
-    
+              {text: '<div class="inline-content"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 452 520"><path fill="#e34f26" d="M41 460L0 0h451l-41 460-185 52" /><path fill="#ef652a" d="M226 472l149-41 35-394H226" /><path fill="#ecedee" d="M226 208h-75l-5-58h80V94H84l15 171h127zm0 147l-64-17-4-45h-56l7 89 117 32z"/><path fill="#fff" d="M226 265h69l-7 73-62 17v59l115-32 16-174H226zm0-171v56h136l5-56z"/></svg><span>HTML</span></div>',
+                collapsed: true,
+                items: [
+                  {text: 'Configuration', link: '/fr/language/HTML/HTMLconfiguration'},
+                  {text: 'Guide', link: '/fr/language/HTML/HTMLGuide'}
+                ]
+              },
               {text: '<div class="inline-content"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 256 256"><path d="M251.17 116.6 139.4 4.82a16.49 16.49 0 0 0-23.31 0l-23.21 23.2 29.44 29.45a19.57 19.57 0 0 1 24.8 24.96l28.37 28.38a19.61 19.61 0 1 1-11.75 11.06L137.28 95.4v69.64a19.62 19.62 0 1 1-16.13-.57V94.2a19.61 19.61 0 0 1-10.65-25.73L81.46 39.44 4.83 116.08a16.49 16.49 0 0 0 0 23.32L116.6 251.17a16.49 16.49 0 0 0 23.32 0l111.25-111.25a16.5 16.5 0 0 0 0-23.33" fill="#DE4C36"/></svg><span>Git</span></div>',
               
                collapsed: true,
