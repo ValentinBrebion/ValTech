@@ -1,4 +1,14 @@
-# [1.7.27]() (2024-12-28)
+# [1.7.30]() (2024-12-29)
+### Content
+- Ajout du cours HTML
+- Ajout du cours Java
+
+### Improve Website
+- Amélioration du github Action pour staging
+- enlever le helpers dans css
+- Résolution du problème liens qui disparaisse au rafraichissement
+
+# [1.7.27](https://github.com/ValentinBrebion/ValTech/commit/96b69932ebf6dd4511e9cbe1b8c82734600412a9) (2024-12-28)
 
 ### Improve Website
 - improve navigation structure

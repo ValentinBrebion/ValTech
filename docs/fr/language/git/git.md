@@ -1,10 +1,10 @@
 ---
-editLink: false # Will overwrite 'editLinks' from themeConfig
-prev: false # Will overwrite 'prevLinks' property from themeConfig
+prev: 
+    text: 'HTML Guide'
+    link: '/fr/language/HTML/HTMLGuide'
 next:
     text: 'Commande Git'
-    link: 'language/git/CommandeGit' # Will overwrite 'nextLinks' property from themeConfig
-lastUpdated: true
+    link: 'fr/language/git/CommandeGit'
 ---
 
 # Language Git
