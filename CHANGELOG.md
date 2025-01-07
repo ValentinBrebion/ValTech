@@ -1,4 +1,4 @@
-# [1.7.30]() (2024-12-29)
+# [1.7.30](https://github.com/ValentinBrebion/ValTech/commit/580fbb3a4d1d6e584021273f13cd1f2385292186) (2024-01-07)
 ### Content
 - Ajout du cours HTML
 - Ajout du cours Java
