@@ -4,7 +4,7 @@ prev:
     link: '/fr/language/HTML/HTMLGuide'
 next:
     text: 'Commande Git'
-    link: 'language/git/CommandeGit'
+    link: 'fr/language/git/CommandeGit'
 ---
 
 # Language Git

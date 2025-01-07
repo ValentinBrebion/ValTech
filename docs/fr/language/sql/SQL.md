@@ -1,10 +1,10 @@
 ---
 next: 
     text: 'TypeScript - Intro'
-    link: 'language/TypeScript/IntroTypeScript'
+    link: 'fr/language/TypeScript/IntroTypeScript'
 prev: 
     text: 'Thème Enfant - Wordpress'
-    link: 'language/PHP/Wordpress/Childrentheme'
+    link: 'fr/language/PHP/Wordpress/Childrentheme'
 ---
 
 # Cours SQL

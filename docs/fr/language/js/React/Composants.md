@@ -1,11 +1,11 @@
 ---
 next: 
     text: 'Les hooks'
-    link: 'language/js/react/hook'
+    link: 'fr/language/js/react/hook'
 
 prev: 
     text: 'Introduction à React'
-    link: 'language/js/react/IntroReact'
+    link: 'fr/language/js/react/IntroReact'
 ---
 
 # <u>Les composants</u>
