@@ -4,7 +4,7 @@ next:
     link: 'fr/language/java/IntroductionJava'
 prev: 
     text: 'SQL'
-    link: 'language/sql/SQL'
+    link: 'fr/language/sql/SQL'
 ---
 
 # Introduction TypeScript
