@@ -1,10 +1,10 @@
 ---
 next: 
     text: 'Histoire de Symfony'
-    link: '/language/PHP/Symfony/HierarchieSymfony'
+    link: 'fr/language/PHP/Symfony/HistoireSymfony'
 prev: 
     text: 'Laravel'
-    link: '/language/PHP/Laravel/Laravel'
+    link: 'fr/language/PHP/Laravel/Laravel'
 ---
 
 # Les API

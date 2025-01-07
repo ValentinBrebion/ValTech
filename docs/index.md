@@ -5,7 +5,7 @@ layout: home
 
 hero:
   name: "ValTech"
-  tagline: Un site personnel et professionnel de language informatique
+  tagline: Un site personnel et professionnel de langage informatique
   image:
         src: /logo-ico-valtech.ico
   actions:
@@ -20,7 +20,7 @@ features:
   - icon: 💡  
     title: Dernières actualités
     details: Jetez un coup d'oeil au tout dernier article mis en ligne, n'ayez pas peur et cliquez !
-    link: '/fr/cybersecurite/httperreur'
+    link: '/fr/language/HTML/HTMLConfiguration'
   - icon: 👀  
     title: Curiosité
     details: La curiosité pour un développeur est un élément essentiel pour son évolution. Des devtools seront mis en ligne par catégories.

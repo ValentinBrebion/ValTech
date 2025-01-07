@@ -1,7 +1,7 @@
 ---
 next: 
     text: 'Les hooks de vuejs'
-    link: '/language/js/vuejs/vuejs2/hookVuejs'
+    link: 'fr/language/js/vuejs/vuejs2/hookVuejs'
 prev: false
 ---
 # Introduction de VueJS

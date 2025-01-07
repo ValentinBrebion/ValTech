@@ -2,7 +2,7 @@
 next: false
 prev: 
     text: 'Les composants'
-    link: 'language/js/react/Composants'
+    link: 'fr/language/js/react/Composants'
 ---
 
 # hooks
