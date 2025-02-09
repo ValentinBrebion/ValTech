@@ -3,13 +3,13 @@ next: false
 prev: false
 ---
 
-## <u>📚 Tools CSS</u>
-
-# CSSLayout <a href="https://csslayout.io" target="_blank"><Badge type="tip" text="Découvrir" /></a>
+## <u>📚 Tools website</u>
+# ninite <a href="https://ninite.com/" target="_blank"><Badge type="tip" text="Découvrir" /></a>
 
 :::info Details
-CSSLayout est un site de mise en page et modèle CSS. Il propose plusieurs layout facilement utilisable sur votre projet. Cliquez sur n'importe quel contenu et vous aurez le HTML et le CSS ! Pratique !😁
+ninite est un site ou l'on peut télécharger différents logiciels comme winrar, python, FileZilla simplement et gratuitement et tout ça d'un seul coup !
 :::
+## <u>📚 Tools CSS</u>
 
 # UnDraw <a href="https://undraw.co/illustrations" target="_blank"><Badge type="tip" text="Découvrir" /></a>
 
