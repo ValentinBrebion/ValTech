@@ -125,5 +125,85 @@ Utilisez le cache pour accélérer les workflows, par exemple pour les dépendan
     restore-keys: |
       ${{ runner.os }}-node-
 ```
+
+### Définir une pipeline
+Pour définir une pipeline, il convient d'en définir les grandes étapes, nommées <a href="https://docs.gitlab.com/ee/ci/yaml/#stages" target="_blank">stages</a>. Pour ce faire, on doit déclarer une liste stages dans notre fichier de configuration :
+```
+# Pour l'exemple uniquement
+stages:
+    - build
+    - test
+    - deploy
+```
+Il nous faut maintenant remplir nos stages avec des jobs. Pour définir un job, il suffit d'ajouter à notre fichier un objet YAML dont la clé sera le nom du job. Une fois ceci fait, de nombreuses options de configuration s'offrent à nous. En voici quelques-unes des plus courantes :
+
+-image : l'image Docker à utiliser pour effectuer cette tâche
+- stage : l'étape dans laquelle se situe cette tâche
+- before_script : un script à exécuter avant de commencer la tâche
+- script : le script principal de la tâche, c'est son code de retour qui détermine le succès ou l'échec de la tâche.
+- only : un objet qui permet de limiter les contextes dans lesquels le job est exécuté, par exemple : seulement sur la branche main.
+- services : cet objet permet de configurer des conteneurs annexes à faire tourner en même temps que le job. Pratique pour lancer une base de données par exemple.
+- variables : cet objet permet de configurer des variables pour notre tâche, qui seront passées comme variables d'environnement pour le script. Sachez également que les variables peuvent être déclarées depuis l'interface de Gitlab.
+
+::: details Exemple concret d'un fichier YAML bien configuré:
+```
+.php-tests-common: &php-tests-common
+  stage: test
+  image: jakzal/phpqa:php8.3-alpine
+  before_script:
+    - composer install
+  cache:
+    paths:
+      - vendor/
+
+default:
+  tags:
+    - lpmiaw
+
+stages:
+  - test
+
+security-checker:
+  <<: *php-tests-common
+  script:
+    - local-php-security-checker  --path=./composer.lock
+
+phpcs:
+  <<: *php-tests-common
+  script:
+    - phpcs -v --standard=PSR12 --ignore=./src/Kernel.php ./src
+
+phpstan:
+  <<: *php-tests-common
+  script:
+    - composer global bin phpstan remove phpstan/extension-installer
+    - phpstan analyse ./src --level 3
+
+twig-lint:
+  <<: *php-tests-common
+  script:
+    - twig-lint lint ./templates
+
+phpunit:
+  image: nicolasunivlr/php:lp2024
+  stage: test
+  services:
+    - name: mariadb:10.11
+      alias: mariadb
+  variables:
+    MYSQL_ROOT_PASSWORD: root
+    MYSQL_DATABASE: nomBDD
+    DATABASE_URL: 'mysql://root:root@mariadb:3306/nomBDD?serverVersion=11.7.1-MariaDB&charset=utf8'
+  before_script:
+    - composer install
+    - php bin/console doctrine:database:drop --if-exists --force --env=test
+    - php bin/console doctrine:database:create --env=test
+    - php bin/console d:m:m --env=test --no-interaction
+    - php bin/console d:f:l --env=test --no-interaction
+  script:
+    - php bin/phpunit
+
+```
+:::
 # Ressources: 
 Liens vers la documentation officelle :<u><a href="https://docs.github.com/fr/actions" target="_blank"><Badge type="info" text="Documentation" /></a></u>
