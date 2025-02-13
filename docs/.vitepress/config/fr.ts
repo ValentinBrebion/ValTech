@@ -171,14 +171,25 @@ function frSidebar(): DefaultTheme.SidebarItem[] {
                   items: [
                     {
                       text: 'Introduction à Docker',
-                      link: '/fr/language/docker/IntroductionDocker'
+                      link: '/fr/devOps/docker/IntroductionDocker'
+                    },
+                    {
+                      text: 'Comment utiliser Docker',
+                      link: '/fr/devOps/docker/HowToUseDocker'
+                    },
+                    {
+                      text: 'Docker Compose',
+                      link: '/fr/devOps/docker/ComposeDocker'
                     }
                   ]
                 },
                 {
-                  text: 'CI/CD',
-                  collapsed:true,
+                  text: 'Intégration continue',
+                  collapsed: true,
                   items: [
+                    {
+                      text: 'Introduction', link: '/fr/devOps/docker/integrationContinue'
+                    },
                     {
                       text: 'WorkFlow', link: '/fr/devOps/workFlow/WorkFlow'
                     }
