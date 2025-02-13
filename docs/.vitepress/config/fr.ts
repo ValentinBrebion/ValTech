@@ -146,7 +146,13 @@ function frSidebar(): DefaultTheme.SidebarItem[] {
             items: [
               {text: 'Règle OWASP 2021', link:'/fr/cybersecurite/OWASP'},
               {text: 'Erreur HTTP', link:'/fr/cybersecurite/httperreur'},
-              {text: 'Services Informatiques', link:'/fr/cybersecurite/servicesInformatiques'}
+              {text: 'Services Informatiques', link:'/fr/cybersecurite/servicesInformatiques'},
+              {
+                text:'Les tests', 
+               collapsed:true, 
+               items:[{
+                text:'Introduction et définition', link: '/fr/cybersecurite/tests/introductionTest'
+               }]}
     
             ]
           },
