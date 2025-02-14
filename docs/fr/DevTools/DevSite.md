@@ -1,5 +1,7 @@
 ---
-next: false
+next: 
+    text: 'Docker Dev Tools'
+    link: 'fr/DevTools/DockerDevTools'
 prev: false
 ---
 
