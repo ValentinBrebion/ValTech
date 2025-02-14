@@ -28,7 +28,7 @@ const members = [
     desc: '<a class="buttonstyle" style="color:white;" href="/fr/cybersecurite/OWASP">Découvrir</a>'
   },
   {
-    avatar: '/design.webp',
+    avatar: '/design.jpg',
     name: 'Design',
     title: 'Retrouvez des cours de design',
     desc: '<a class="buttonstyle" style="color:white;" href="/fr/design/introductionDesign">En cliquant ici :</a>'

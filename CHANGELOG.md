@@ -1,3 +1,12 @@
+# [1.7.33]() (2024-02-09)
+### Content
+- Ajout du cours docker
+- Ajout du cours sur les tests unitaire
+- Ajout contenu dans DevTools
+
+### Improve Website
+- Image design refaite
+
 # [1.7.30](https://github.com/ValentinBrebion/ValTech/commit/580fbb3a4d1d6e584021273f13cd1f2385292186) (2024-01-07)
 ### Content
 - Ajout du cours HTML
