@@ -31,3 +31,22 @@ Les tests sont une étape cruciale dans le développement de logiciels, de produ
 - **Tests de Formation/Documentaire** : Vérifier que la documentation utilisateur est claire et suffisante pour permettre une utilisation efficace du système. Par exemple, s'assurer que le manuel utilisateur est compréhensible et couvre toutes les fonctionnalités importantes.
 
 En intégrant ces différents types de tests dans le processus de développement, les équipes peuvent améliorer la qualité globale de leurs produits et réduire les risques de défaillances après la mise en service.
+
+## Asserts et tests
+Quand on réalise des tests, il faut dissocier les tests et les asserts.
+
+- Un test est une méthode exécutée à l'intérieur de la classe de Test
+- Un assert est une méthode de la classe héritée et qui permet d'affirmer quelque chose. Chaque affirmation doit être vraie pour que le test soit bon.
+- Le résultat peut être de la forme :
+
+```
+Tests: 5, Assertions: 8, Failures: 1.
+```
+
+Cela signifie que :
+
+- 5 tests différents ont été exécutés à travers 5 méthodes qui commencent par le mot test.
+- 8 asserts ont été réalisées
+- 1 fonction est en erreur à cause d'1 assert (affirmation) fausse
+
+Dans ce cas, le test a échoué.
