@@ -4,7 +4,7 @@ next:
     link: 'fr/language/sql/SQL'
 prev: 
     text: 'Introduction'
-    link: 'fr/language/PHP/Wordpress/IntroWordpress'
+    link: 'fr/language/PHP/Wordpress/WordpressIntro'
 ---
 # Comment faire un thème Wordpress
 

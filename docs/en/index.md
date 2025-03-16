@@ -1,9 +1,8 @@
 ---
 layout: home
-title: Home
+
 hero:
   name: ValTech
-  text: Development Resources
   tagline: Technical documentation and resources for developers
   image:
         src: /logo-ico-valtech.ico

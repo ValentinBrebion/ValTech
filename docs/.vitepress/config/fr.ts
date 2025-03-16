@@ -91,13 +91,13 @@ function frSidebar(): DefaultTheme.SidebarItem[] {
                   collapsed: true, 
                   items: [
                     {
-                      text:'📜 Histoire', link:'language/PHP/Symfony/HistoireSymfony'
+                      text:'📜 Histoire', link:'language/PHP/Symfony/SymfonyHistory'
                     },
                     {
-                      text:'⚙️ Installation', link: 'language/PHP/Symfony/InstallationSymfony'
+                      text:'⚙️ Installation', link: 'language/PHP/Symfony/SymfonyInstallation'
                     },
                     { 
-                      text: '📎 Hiérarchie', link: 'language/PHP/Symfony/HierarchieSymfony'
+                      text: '📎 Hiérarchie', link: 'language/PHP/Symfony/SymfonyHierarchy'
                     }
                   ]},
                   {
@@ -105,10 +105,10 @@ function frSidebar(): DefaultTheme.SidebarItem[] {
                     collapsed: true, 
                     items: [
                       {
-                        text:'📜 Introduction Wordpress', link:'language/PHP/Wordpress/IntroWordpress'
+                        text:'📜 Introduction Wordpress', link:'language/PHP/Wordpress/WordpressIntro'
                       },
                       {
-                        text:'👶 Thème enfant', link:'language/PHP/Wordpress/Childrentheme'
+                        text:'👶 Thème enfant', link:'language/PHP/Wordpress/ChildTheme'
                       },
                     ]
                   }
@@ -156,14 +156,14 @@ function frSidebar(): DefaultTheme.SidebarItem[] {
           {
             text: '🛡️ Cybersécurité',
             items: [
-              {text: 'Règle OWASP 2021', link:'cybersecurite/OWASP'},
-              {text: 'Erreur HTTP', link:'cybersecurite/httperreur'},
-              {text: 'Services Informatiques', link:'cybersecurite/servicesInformatiques'},
+              {text: 'Règle OWASP 2021', link:'cybersecurity/OWASP'},
+              {text: 'Erreur HTTP', link:'cybersecurity/httperror'},
+              {text: 'Services Informatiques', link:'cybersecurity/ITServices'},
               {
                 text:'Les tests', 
                collapsed:true, 
                items:[{
-                text:'Introduction et définition', link: 'cybersecurite/tests/introductionTest'
+                text:'Introduction et définition', link: 'cybersecurity/tests/introductionTest'
                }]}
     
             ]
@@ -194,7 +194,7 @@ function frSidebar(): DefaultTheme.SidebarItem[] {
                   collapsed: true,
                   items: [
                     {
-                      text: 'Introduction', link: 'devOps/docker/integrationContinue'
+                      text: 'Introduction', link: 'devOps/docker/ContinuousIntegration'
                     },
                     {
                       text: 'WorkFlow', link: 'devOps/workFlow/WorkFlow'
