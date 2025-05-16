@@ -5,13 +5,15 @@
     --vp-button-brand-hover-bg: #4279E2;
     --vp-home-hero-name-color: transparent;
     --vp-button-brand-hover-border: transparent;
-    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #ae00ff, #18a7d6);
+    --vp-home-hero-name-background: linear-gradient(135deg, #ae00ff 0%, #6f00aa 40%, #18a7d6 100%);
     --vp-button-brand-border: transparent; 
 
     /*## custom content ##*/
     --vp-code-copy-copied-text-content: 'Copié !';
 
-    --vp-home-hero-image-background-image: -webkit-linear-gradient(120deg, #ae00ff, #18a7d6);
+    --vp-home-hero-image-background-image: 
+  linear-gradient(135deg, #ae00ff 0%, #0d1b2a 50%, #18a7d6 100%);
+
     --vp-home-hero-image-filter: blur(50px);
   }
 .color-danger {

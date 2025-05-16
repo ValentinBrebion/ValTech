@@ -2,6 +2,7 @@ import DefaultTheme from 'vitepress/theme'
 import { withBase } from 'vitepress'
 import { watch } from 'vue'
 import { useRoute } from 'vitepress'
+import './custom.css'
 
 export default {
     ...DefaultTheme,

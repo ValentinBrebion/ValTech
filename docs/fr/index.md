@@ -7,7 +7,7 @@ hero:
   name: "ValTech"
   tagline: Un site personnel et professionnel de langage informatique
   image:
-        src: /logo-ico-valtech.ico
+        src: /ValtechLogo.png
   actions:
     - theme: brand
       text: découvrir

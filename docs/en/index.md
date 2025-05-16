@@ -5,7 +5,7 @@ hero:
   name: ValTech
   tagline: Technical documentation and resources for developers
   image:
-        src: /logo-ico-valtech.ico
+        src: /ValtechLogo.png
   actions:
     - theme: brand
       text: Get Started
