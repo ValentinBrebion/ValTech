@@ -7,7 +7,7 @@ hero:
   name: "ValTech"
   tagline: Un site personnel et professionnel de langage informatique
   image:
-        src: /logo-ico-valtech.ico
+        src: /ValtechLogo.png
   actions:
     - theme: brand
       text: découvrir
@@ -36,7 +36,7 @@ features:
 <script setup>
 import { ref } from 'vue';
 import { VPTeamPage } from 'vitepress/theme';
-import informations from './TechInfo'
+import informations from '../TechInfo'
 
 // Création d'une référence réactive pour stocker l'information aléatoire
 const randomInformation = ref(getRandomInformation());
