@@ -36,7 +36,7 @@ features:
 <script setup>
 import { ref } from 'vue';
 import { VPTeamPage } from 'vitepress/theme';
-import informations from './TechInfo'
+import informations from '../TechInfo'
 
 // Création d'une référence réactive pour stocker l'information aléatoire
 const randomInformation = ref(getRandomInformation());
