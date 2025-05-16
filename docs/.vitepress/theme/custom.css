@@ -10,8 +10,6 @@
 
     /*## custom content ##*/
     --vp-code-copy-copied-text-content: 'Copié !';
-
-    --vp-home-hero-image-background-image: -webkit-linear-gradient(120deg, #ae00ff, #18a7d6);
     --vp-home-hero-image-filter: blur(50px);
   }
 .color-danger {
@@ -38,4 +36,21 @@
 
 .VPFooter[data-v-80147a0d] {
   background: #0D1117;
+}
+div.content-body[data-v-cf6e7c5e] {
+  backdrop-filter: blur(5px);
+}
+div.container[data-v-74b974be] {
+  backdrop-filter: blur(5px);
+  background-color: rgba(13, 17, 23, 0.75);
+}
+
+div.VPHomeHero[data-v-72cc4481] {
+  backdrop-filter: blur(5px);
+  background-color: rgba(13, 17, 23, 0.75);
+}
+
+div.curtain[data-v-6750ea26] {
+  backdrop-filter: blur(5px);
+  background-color: rgba(13, 17, 23, 0.75);
 }
