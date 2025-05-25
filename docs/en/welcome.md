@@ -13,7 +13,7 @@ const members = [
     avatar: '/developpementLogo.jpg',
     name: 'Development',
     title: 'Find the latest published article',
-    desc: '<a class="buttonstyle" style="color:white;" href="/en/language/PHP/Symfony/HistoireSymfony">Discover</a>'
+    desc: '<a class="buttonstyle" style="color:white;" href="/en/language/PHP/Symfony/SymfonyHistory">Discover</a>'
   },
   {
     avatar: '/devtools.jpg',
@@ -25,7 +25,7 @@ const members = [
     avatar: '/cybersecurite.jpg',
     name: 'Cybersecurity',
     title: 'Find a list of recommendations for development',
-    desc: '<a class="buttonstyle" style="color:white;" href="/en/cybersecurite/OWASP">Discover</a>'
+    desc: '<a class="buttonstyle" style="color:white;" href="/en/cybersecurity/OWASP">Discover</a>'
   },
   {
     avatar: '/design.jpg',
