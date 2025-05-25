@@ -1,10 +1,10 @@
 ---
 next:
     text: 'Hiérarchie de Symfony'
-    link: 'fr/language/PHP/Symfony/HierarchieSymfony'
+    link: 'fr/language/PHP/Symfony/SymfonyHierarchy'
 prev: 
     text: 'Histoire de Symfony'
-    link: 'fr/language/PHP/Symfony/HistoireSymfony'
+    link: 'fr/language/PHP/Symfony/SymfonyHistory'
 ---
 
 # Installation d'un projet Symfony

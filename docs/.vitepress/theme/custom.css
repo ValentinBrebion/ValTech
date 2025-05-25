@@ -20,41 +20,26 @@
   color:white;
 }
 
-#VPContent, .VPSidebar[data-v-6750ea26], .curtain[data-v-6750ea26] {
+aside.VPSidebar {
   background-color: #0D1117;
 }
-@media (min-width: 960px) {
-  .VPNavBar:not(.home.top) .content-body[data-v-cf6e7c5e] {
-      backdrop-filter: blur(5px);
-      background-color: rgba(13, 17, 23, 0.75);
-  }
-}
-.aside-curtain[data-v-10119189] {
-  background: #0D1117;
-}
-@media (min-width: 960px) {
-  .VPNavBar:not(.has-sidebar):not(.home.top) .content-body[data-v-cf6e7c5e] {
-    backdrop-filter: blur(5px);
-    background-color: rgba(13, 17, 23, 0.75);
-  }
+div.VPContent {
+  background-color: #0D1117 !important;
 }
 
-.VPFooter[data-v-80147a0d] {
-  background: #0D1117;
+.VPFooter {
+  background-color: #0D1117 !important;
 }
-div.content-body[data-v-cf6e7c5e] {
-  backdrop-filter: blur(5px);
+header.VPNav {
+  background-color: #0D1117 !important;
 }
-div.container[data-v-74b974be] {
-  backdrop-filter: blur(5px);
-  background-color: rgba(13, 17, 23, 0.75);
+.VPNavBar:not(.home.top) .content-body {
+  background-color: #0D1117 !important;
+  backdrop-filter: blur(5px) !important;
 }
-
-div.VPHomeHero[data-v-72cc4481] {
-  backdrop-filter: blur(5px);
-  background-color: rgba(13, 17, 23, 0.75);
+aside.VPSidebar {
+  background-color: #0D1117 !important;
 }
-
 div.curtain[data-v-6750ea26] {
   backdrop-filter: blur(5px);
   background-color: rgba(13, 17, 23, 0.75);

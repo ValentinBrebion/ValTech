@@ -1,8 +1,10 @@
 ---
-next: false
+next: 
+    text: 'Introduction à Wordpress'
+    link: 'fr/language/PHP/Wordpress/WordpressIntro'
 prev: 
     text: 'Histoire de Symfony'
-    link: 'language/PHP/Symfony/HistoireSymfony'
+    link: 'fr/language/PHP/Symfony/SymfonyHistory'
 ---
 
 # Comprendre la hiérarchie d'une application Symfony

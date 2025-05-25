@@ -1,5 +1,8 @@
 ---
-next: false
+next: 
+    
+    text: 'Wordpress Introduction'
+    link: 'fr/language/PHP/Wordpress/WordpressIntro'
 prev: 
     text: 'Symfony History'
     link: 'language/PHP/Symfony/SymfonyHistory'
