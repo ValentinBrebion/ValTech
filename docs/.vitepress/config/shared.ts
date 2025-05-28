@@ -11,11 +11,6 @@ export const shared = defineConfig({
             }
           })()`
         ],
-        [
-      'script',
-          { id: 'check-dark-mode' },
-          `(()=>{function n(e){const t=document.createElement("style");t.appendChild(document.createTextNode("*,*::before,*::after{transition:none!important}")),document.head.appendChild(t),document.documentElement.classList.toggle("dark",e);const a=getComputedStyle(t).opacity;document.head.removeChild(t)}const o=window.matchMedia("(prefers-color-scheme: dark)");o.addEventListener("change",e=>n(e.matches)),n(o.matches)})();`
-        ],
         ['meta', { name: 'theme-color', content: '#5f67ee' }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
         ['link', {rel: 'icon', href: '/ValtechLogo.ico'}],
@@ -26,10 +21,10 @@ export const shared = defineConfig({
     ignoreDeadLinks: true,
     cleanUrls: true,
     lastUpdated: true,
+    appearance: true,
     markdown: {
         lineNumbers: true
     },
-    appearance: false,
     themeConfig: {
         logo:'ValtechLogo.png',
         lastUpdated: {
@@ -41,9 +36,9 @@ export const shared = defineConfig({
         search: {
             provider: 'local'
         },
+        darkModeSwitchLabel: 'Appearance',
         socialLinks: [
             { icon: 'github', link: 'https://github.com/ValentinBrebion' }
           ],
     },
-    
 })

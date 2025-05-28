@@ -1,46 +1,126 @@
 /* .vitepress/theme/custom.css */
 :root {
-    --vp-button-brand-bg: #2D3647;
-    --vp-c-brand-light: #747bff;
-    --vp-button-brand-hover-bg: #4279E2;
-    --vp-home-hero-name-color: transparent;
-    --vp-button-brand-hover-border: transparent;
-    --vp-home-hero-name-background: linear-gradient(135deg, #ae00ff 0%, #6f00aa 40%, #18a7d6 100%);
-    --vp-button-brand-border: transparent; 
+  /* Thème clair par défaut */
+  --vp-c-theme-light: #ffffff;
+  --vp-c-bg: #ffffff;
+  --vp-c-text: #1f1f1f;
+  --vp-c-brand: #3f51b5;
+  --vp-c-brand-light: #747bff;
+  --vp-c-brand-dark: #2c3e90;
+  --vp-c-bg-soft: #f9fafb;
+  --vp-c-bg-alt: #f0f0f0;
+  --vp-c-text-2: #666;
+  --vp-c-text-3: #999;
+  --vp-c-text-4: #ccc;
+  --vp-c-text-reverse: #fff;
+  --vp-c-icon: #666;
+  --vp-c-icon-hover: #333;
+  --vp-c-icon-active: #000;
+  --vp-c-border: #eaecef;
+  --vp-c-brand-border: #747bff;
+  --vp-c-brand-border-hover: #6264f3;
+  --vp-c-brand-border-active: #4244e3;
+  --vp-c-brand-border-focus: #5254f2;
+  --vp-c-brand-bg: #3f51b5;
+  --vp-c-brand-bg-hover: #3545a2;
+  --vp-c-brand-bg-active: #2c3e90;
+  --vp-c-brand-bg-focus: #3545a2;
+  --vp-c-brand-bg-soft: #f0f5ff;
+  --vp-c-brand-bg-soft-hover: #e6ecff;
+  --vp-c-brand-bg-soft-active: #d9e4ff;
+  --vp-c-brand-bg-soft-focus: #e6ecff;
+  --vp-c-brand-text: #fff;
+  --vp-c-brand-text-hover: #fff;
+  --vp-c-brand-text-active: #fff;
+  --vp-c-brand-text-focus: #fff;
+  --vp-c-brand-border: #747bff;
+  --vp-c-brand-border-hover: #6264f3;
+  --vp-c-brand-border-active: #4244e3;
+  --vp-c-brand-border-focus: #5254f2;
+  --vp-c-brand-bg: #3f51b5;
+  --vp-c-brand-bg-hover: #3545a2;
+  --vp-c-brand-bg-active: #2c3e90;
+  --vp-c-brand-bg-focus: #3545a2;
+  --vp-c-brand-bg-soft: #f0f5ff;
+  --vp-c-brand-bg-soft-hover: #e6ecff;
+  --vp-c-brand-bg-soft-active: #d9e4ff;
+  --vp-c-brand-bg-soft-focus: #e6ecff;
+  --vp-c-brand-text: #fff;
+  --vp-c-brand-text-hover: #fff;
+  --vp-c-brand-text-active: #fff;
+  --vp-c-brand-text-focus: #fff;
+}
 
-    /*## custom content ##*/
-    --vp-code-copy-copied-text-content: 'Copié !';
+[data-theme="dark"] {
+      --vp-c-theme-light: #0d1117;
+      --vp-c-bg: #0d1117;
+      --vp-c-text: #fff;
+      --vp-c-brand: #747bff;
+      --vp-c-brand-light: #4279E2;
+      --vp-c-brand-dark: #2c3e90;
+      --vp-c-bg-soft: #0d1117;
+      --vp-c-bg-alt: #0d1117;
+      --vp-c-text-2: #b1b1b1;
+      --vp-c-text-3: #8b8b8b;
+      --vp-c-text-4: #666;
+      --vp-c-text-reverse: #fff;
+      --vp-c-icon: #b1b1b1;
+      --vp-c-icon-hover: #fff;
+      --vp-c-icon-active: #fff;
+      --vp-c-border: #252932;
+      --vp-c-brand-border: #4279E2;
+      --vp-c-brand-border-hover: #5c85d6;
+      --vp-c-brand-border-active: #4279E2;
+      --vp-c-brand-border-focus: #4279E2;
+      --vp-c-brand-bg: #4279E2;
+      --vp-c-brand-bg-hover: #5c85d6;
+      --vp-c-brand-bg-active: #4279E2;
+      --vp-c-brand-bg-focus: #5c85d6;
+      --vp-c-brand-bg-soft: #0d1117;
+      --vp-c-brand-bg-soft-hover: #0d1117;
+      --vp-c-brand-bg-soft-active: #0d1117;
+      --vp-c-brand-bg-soft-focus: #0d1117;
+      --vp-c-brand-text: #fff;
+      --vp-c-brand-text-hover: #fff;
+      --vp-c-brand-text-active: #fff;
+      --vp-c-brand-text-focus: #fff;
+      --vp-c-nav-bg: #0d1117;
+}
 
-    --vp-home-hero-image-background-image: 
-  linear-gradient(135deg, #ae00ff 0%, #0d1b2a 50%, #18a7d6 100%);
-
-    --vp-home-hero-image-filter: blur(50px);
-  }
-.color-danger {
-  color:white;
+/* Application des thèmes aux éléments */
+body {
+  background-color: var(--vp-theme-bg);
+  color: var(--vp-theme-text);
 }
 
 aside.VPSidebar {
-  background-color: #0D1117;
+  background-color: var(--vp-theme-sidebar) !important;
 }
+
 div.VPContent {
-  background-color: #0D1117 !important;
+  background-color: var(--vp-theme-bg) !important;
 }
 
 .VPFooter {
-  background-color: #0D1117 !important;
+  background-color: var(--vp-theme-footer) !important;
 }
+
 header.VPNav {
-  background-color: #0D1117 !important;
+  background-color: var(--vp-c-nav-bg) !important;
 }
+
 .VPNavBar:not(.home.top) .content-body {
-  background-color: #0D1117 !important;
+  background-color: var(--vp-c-nav-bg) !important;
   backdrop-filter: blur(5px) !important;
 }
-aside.VPSidebar {
-  background-color: #0D1117 !important;
+
+div.aside-curtain {
+  background: var(--vp-theme-bg) !important;
 }
-div.curtain[data-v-6750ea26] {
-  backdrop-filter: blur(5px);
-  background-color: rgba(13, 17, 23, 0.75);
+div.curtain {
+  background: var(--vp-theme-bg) !important;
+  backdrop-filter: blur(5px) !important;
+}
+div.line-numbers-mode {
+  background-color: #222020 !important;
 }
