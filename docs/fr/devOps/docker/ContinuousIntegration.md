@@ -1,5 +1,7 @@
 ---
-next: false
+next: 
+    text: 'les workflows'
+    link: 'fr/devOps/workFlow/WorkFlow'
 prev: false
 ---
 

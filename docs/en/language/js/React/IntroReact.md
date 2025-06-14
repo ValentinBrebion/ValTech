@@ -1,7 +1,7 @@
 ---
 next: 
     text: 'Components'
-    link: '/en/language/js/react/Composants'
+    link: '/en/language/js/react/Components'
 prev: false
 ---
 # Introduction to React

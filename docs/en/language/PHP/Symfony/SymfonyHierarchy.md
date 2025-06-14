@@ -1,11 +1,10 @@
 ---
 next: 
-    
     text: 'Wordpress Introduction'
-    link: 'fr/language/PHP/Wordpress/WordpressIntro'
+    link: 'en/language/PHP/Wordpress/WordpressIntro'
 prev: 
     text: 'Symfony History'
-    link: 'language/PHP/Symfony/SymfonyHistory'
+    link: 'en/language/PHP/Symfony/SymfonyHistory'
 ---
 
 # Understanding the Hierarchy of a Symfony Application

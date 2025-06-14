@@ -237,7 +237,7 @@ function frSidebar(): DefaultTheme.SidebarItem[] {
 function nav(): DefaultTheme.NavItem[] {
     return [
         {text: 'besoin d\'informations ?', link:'/fr/contactForm/contact'},
-        {text: 'Cybersécurité', link: '/fr/cybersecurite/OWASP'},
+        {text: 'Cybersécurité', link: '/fr/cybersecurity/OWASP'},
         {text: 'DevTools', link: '/fr/DevTools/DevSite'},
         {text: 'Langage', link:'/fr/language/js/regex'},
         {text: 'Design', link:'/fr/design/introductionDesign'},

@@ -1,3 +1,9 @@
+---
+next: false
+prev: 
+    text: 'Introduction vuejs 2'
+    link: 'fr/language/js/vuejs/vuejs2/IntroVuejs2'
+---
 # <u>Les fonctions "hook" de vuejs</u> ⤵️
 
 ## 1/ Les rendues déclaratifs : v-bind 

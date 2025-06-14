@@ -4,7 +4,7 @@ next:
     link: '/en/language/TypeScript/IntroTypeScript'
 prev: 
     text: 'Child Theme - Wordpress'
-    link: '/en/language/PHP/Wordpress/Childrentheme'
+    link: '/en/language/PHP/Wordpress/Childtheme'
 ---
 
 # SQL Course
