@@ -1,10 +1,10 @@
 ---
 next: 
     text: 'Services Informatiques'
-    link: 'cybersecurite/servicesInformatiques'
+    link: 'fr/cybersecurity/ITServices'
 prev: 
     text: 'OWASP'
-    link: 'cybersecurite/OWASP'
+    link: 'fr/cybersecurity/OWASP'
 ---
 
 # Les erreurs HTTP

@@ -1,7 +1,7 @@
 ---
 next: 
     text: 'Thème enfant'
-    link: 'fr/language/PHP/Wordpress/Childrentheme'
+    link: 'fr/language/PHP/Wordpress/ChildTheme'
 prev: false
 ---
 # 📜 Introduction à Wordpress

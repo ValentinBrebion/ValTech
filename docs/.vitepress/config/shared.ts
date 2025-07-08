@@ -13,7 +13,7 @@ export const shared = defineConfig({
         ],
         ['meta', { name: 'theme-color', content: '#5f67ee' }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
-        ['link', {rel: 'icon', href: '/logo-ico-valtech.ico'}],
+        ['link', {rel: 'icon', href: '/ValtechLogo.ico'}],
         //preconnect
         ['link', {rel: 'preconnect', href:'https://media.discordapp.net'}],
         ['link', {rel: 'stylesheet', href:'/css/valtech.css'}]
@@ -21,11 +21,12 @@ export const shared = defineConfig({
     ignoreDeadLinks: true,
     cleanUrls: true,
     lastUpdated: true,
+    appearance: true,
     markdown: {
         lineNumbers: true
     },
     themeConfig: {
-        logo:'https://media.discordapp.net/attachments/1035253366995030166/1083390653897125938/logo_sans_texte-removebg-preview.png?ex=65bba5ac&is=65a930ac&hm=41c7f0f7753ced3c316d6ac84755dac82472533e56a2a8090a77cfc1457ce96c&=&format=webp&quality=lossless',
+        logo:'ValtechLogo.png',
         lastUpdated: {
             formatOptions: {
                 dateStyle: 'full',
@@ -33,11 +34,61 @@ export const shared = defineConfig({
             }
         },
         search: {
-            provider: 'local'
-        },
-        darkModeSwitchLabel: 'Apparance',
+          provider: 'local',
+          options: {
+              locales: {
+                  root: { // pour le français
+                      translations: {
+                          button: {
+                              buttonText: 'Rechercher',
+                              buttonAriaLabel: 'Rechercher'
+                          },
+                          modal: {
+                              displayDetails: 'Afficher la liste détaillée',
+                              resetButtonTitle: 'Réinitialiser la recherche',
+                              backButtonTitle: 'Fermer la recherche',
+                              noResultsText: 'Aucun résultat',
+                              footer: {
+                                  selectText: 'Sélectionner',
+                                  selectKeyAriaLabel: 'Entrer',
+                                  navigateText: 'Navigation',
+                                  navigateUpKeyAriaLabel: 'Flèche du haut',
+                                  navigateDownKeyAriaLabel: 'Flèche du bas',
+                                  closeText: 'Fermer',
+                                  closeKeyAriaLabel: 'esc'
+                              }
+                          }
+                      }
+                  },
+                  en: { // pour l'anglais
+                      translations: {
+                          button: {
+                              buttonText: 'Search',
+                              buttonAriaLabel: 'Search'
+                          },
+                          modal: {
+                              displayDetails: 'Show detailed list',
+                              resetButtonTitle: 'Reset search',
+                              backButtonTitle: 'Close search',
+                              noResultsText: 'No results',
+                              footer: {
+                                  selectText: 'Select',
+                                  selectKeyAriaLabel: 'Enter',
+                                  navigateText: 'Navigation',
+                                  navigateUpKeyAriaLabel: 'Arrow up',
+                                  navigateDownKeyAriaLabel: 'Arrow down',
+                                  closeText: 'Close',
+                                  closeKeyAriaLabel: 'esc'
+                              }
+                          }
+                      }
+                  }
+              }
+          }
+      },
+        darkModeSwitchLabel: 'Appearance',
         socialLinks: [
             { icon: 'github', link: 'https://github.com/ValentinBrebion' }
           ],
-    }
+    },
 })

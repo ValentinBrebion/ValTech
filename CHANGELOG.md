@@ -1,3 +1,8 @@
+# [2.0.0]()(2025-03-15)
+### Improve Website
+- Amélioration du design
+- Ajout de la traduction
+
 # [1.7.33](https://github.com/ValentinBrebion/ValTech/commit/d84bfa011999ff44ebd231783abedf3fadf17f41) (2024-02-09)
 ### Content
 - Ajout du cours docker

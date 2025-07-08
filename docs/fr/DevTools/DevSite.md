@@ -5,37 +5,40 @@ next:
 prev: false
 ---
 
-## <u>📚 Tools website</u>
-# ninite <a href="https://ninite.com/" target="_blank"><Badge type="tip" text="Découvrir" /></a>
+# 🛠️ Sites & Outils de Développement
 
-:::info Details
-ninite est un site ou l'on peut télécharger différents logiciels comme winrar, python, FileZilla simplement et gratuitement et tout ça d'un seul coup !
-:::
-## <u>📚 Tools CSS</u>
+## 🌐 Sites Web
 
-# UnDraw <a href="https://undraw.co/illustrations" target="_blank"><Badge type="tip" text="Découvrir" /></a>
+### Ninite <a href="https://ninite.com/" target="_blank"><Badge type="tip" text="Découvrir" /></a>
 
-:::info Details
-UnDraw est un site d'illustration vectorielles gratuites pour tous tes projets. Avec la fonction de recherche tu peux facilement trouver l'illustration que tu peux customiser en modifiant la couleur ! trop cool ! 😁
+:::info Détails
+Ninite est une plateforme révolutionnaire qui simplifie le téléchargement de logiciels essentiels comme WinRAR, Python, FileZilla, et bien d'autres. Le tout gratuitement et en un seul clic !
 :::
 
+## 🎨 Ressources CSS
 
-## <u>📚 Tools Icon</u>
+### UnDraw <Badge type="tip" text="Découvrir" />
 
-# Iconoir <a href="https://iconoir.com" target="_blank"><Badge type="tip" text="Découvrir" /></a>
-
-:::info Details
-Iconoir est un site d'icon 100 % gratuit utile pour des projets, Les icons peuvent être customizées (couleur, gras et taille) et pas besoin d'avoir un compte premium ou de s'enregistrer !😁
+:::info Détails
+UnDraw propose une collection d'illustrations vectorielles gratuites, parfaites pour vos projets. La fonction de recherche intuitive vous permet de trouver facilement l'illustration idéale, que vous pouvez personnaliser avec vos propres couleurs. 😁
 :::
 
-# Ikonate <a href="https://ikonate.com" target="_blank"><Badge type="tip" text="Découvrir" /></a>
+## 🎨 Icônes
 
-:::info Details
-Ikonate est un site d'icon 100 % gratuit utile pour des projets, Les icons peuvent être customizées (couleur, gras et taille) 😁
+### Iconoir <Badge type="tip" text="Découvrir" />
+
+:::info Détails
+Iconoir est une bibliothèque d'icônes 100% gratuite, idéale pour vos projets. Les icônes sont entièrement personnalisables (couleur, poids et taille) et ne nécessitent aucun compte premium. 😁
 :::
 
-# SVGL <a href="https://svgl.app" target="_blank"><Badge type="tip" text="Découvrir" /></a>
+### Ikonate <Badge type="tip" text="Découvrir" />
 
-:::info Details
-SVGL est un site ou l'on peut retrouver un panel de svg programmation utile pour mettre des icones de dev gratuit !
+:::info Détails
+Ikonate est une autre bibliothèque d'icônes gratuite, offrant des icônes entièrement personnalisables (couleur, poids et taille) pour vos projets. 😁
+:::
+
+### SVGL <Badge type="tip" text="Découvrir" />
+
+:::info Détails
+SVGL propose une collection d'icônes SVG de programmation, parfaites pour ajouter une touche professionnelle à vos projets de développement, et tout cela gratuitement !
 :::
