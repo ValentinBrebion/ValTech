@@ -1,6 +1,10 @@
 # .github/workflows/tag.yml
 name: Create Tag from develop
 
+permissions:
+  contents: write
+  pull-requests: write
+
 on:
   push:
     branches:
