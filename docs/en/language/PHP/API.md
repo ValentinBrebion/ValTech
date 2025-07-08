@@ -1,7 +1,7 @@
 ---
 next: 
     text: 'History of Symfony'
-    link: '/en/language/PHP/Symfony/HistoireSymfony'
+    link: '/en/language/PHP/Symfony/SymfonyHistory'
 prev: 
     text: 'Laravel'
     link: '/en/language/PHP/Laravel/Laravel'

@@ -1,3 +1,11 @@
+---
+next: 
+    text: 'Vuejs 3 intro'
+    link: '/en/language/js/Vuejs/vuejs3/IntroVuejs3'
+prev: 
+    text: 'Vuejs 2 intro'
+    link: '/en/language/js/Vuejs/vuejs2/IntroVuejs2'
+---
 # <u>Vue.js "hook" functions</u> ⤵️
 
 ## 1/ Declarative Rendering: v-bind

@@ -2,7 +2,7 @@
 next: false
 prev: 
     text: 'Electronic Evidence Law'
-    link: 'laws/definitions/electronicEvidence'
+    link: 'en/laws/definitions/preuveElectronique'
 ---
 # UX Design
 ## Introduction

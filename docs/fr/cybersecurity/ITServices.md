@@ -1,8 +1,10 @@
 ---
-next: false
+next: 
+    text: 'les tests'
+    link: 'fr/cybersecurity/tests/introductionTest'
 prev: 
     text: 'les erreurs HTTP'
-    link: 'cybersecurite/httperreur'
+    link: 'fr/cybersecurity/httperror'
 ---
 
 # Les différentes attaques informatiques dans les entreprises

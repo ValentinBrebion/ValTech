@@ -5,37 +5,40 @@ next:
 prev: false
 ---
 
-## <u>📚 Tools website</u>
-# ninite <a href="https://ninite.com/" target="_blank"><Badge type="tip" text="Discover" /></a>
+# 🛠️ Developer Sites & Tools
+
+## 🌐 Web Sites
+
+### Ninite <Badge type="tip" text="Discover" />
 
 :::info Details
-ninite is a website where you can download various software like winrar, python, FileZilla simply and for free, all at once!
+Ninite is a revolutionary platform that simplifies the downloading of essential software like WinRAR, Python, FileZilla, and many others. All for free and in a single click!
 :::
 
-## <u>📚 Tools CSS</u>
+## 🎨 CSS Resources
 
-# UnDraw <a href="https://undraw.co/illustrations" target="_blank"><Badge type="tip" text="Discover" /></a>
+### UnDraw <Badge type="tip" text="Discover" />
 
 :::info Details
-UnDraw is a free vector illustration site for all your projects. With the search function, you can easily find illustrations that you can customize by changing the color! So cool! 😁
+UnDraw offers a collection of free vector illustrations perfect for your projects. The intuitive search function helps you easily find the perfect illustration that you can customize with your own colors. 😁
 :::
 
-## <u>📚 Tools Icon</u>
+## 🎨 Icons
 
-# Iconoir <a href="https://iconoir.com" target="_blank"><Badge type="tip" text="Discover" /></a>
+### Iconoir <Badge type="tip" text="Discover" />
 
 :::info Details
-Iconoir is a 100% free icon site useful for projects. The icons can be customized (color, bold, and size) and there's no need for a premium account or registration! 😁
+Iconoir is a 100% free icon library, ideal for your projects. The icons are fully customizable (color, weight, and size) and require no premium account. 😁
 :::
 
-# Ikonate <a href="https://ikonate.com" target="_blank"><Badge type="tip" text="Discover" /></a>
+### Ikonate <Badge type="tip" text="Discover" />
 
 :::info Details
-Ikonate is a 100% free icon site useful for projects. The icons can be customized (color, bold, and size) 😁
+Ikonate is another free icon library, offering fully customizable icons (color, weight, and size) for your projects. 😁
 :::
 
-# SVGL <a href="https://svgl.app" target="_blank"><Badge type="tip" text="Discover" /></a>
+### SVGL <Badge type="tip" text="Discover" />
 
 :::info Details
-SVGL is a site where you can find a panel of programming SVGs useful for adding free dev icons!
-::: 
+SVGL provides a collection of programming SVG icons, perfect for adding a professional touch to your development projects, all for free!
+:::
