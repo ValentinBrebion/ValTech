@@ -1,4 +1,10 @@
-# [2.0.0]()(2025-03-15)
+# [2.1.0]()(2025-07-20)
+### Content
+- Ajout cours Docker
+- Ajout cours SQL
+- Ajout cours API
+
+# [2.0.0](https://github.com/ValentinBrebion/ValTech/commit/15815e9af964abd1f3d7c62c3abc4e642d1cb347)(2025-03-15)
 ### Improve Website
 - Amélioration du design
 - Ajout de la traduction
