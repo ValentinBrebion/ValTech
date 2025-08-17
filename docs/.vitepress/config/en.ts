@@ -194,6 +194,14 @@ function enSidebar(): DefaultTheme.SidebarItem[] {
                     {
                       text: 'Docker Compose',
                       link: '/en/devOps/docker/ComposeDocker'
+                    },
+                    {
+                      text: 'Commands Résume',
+                      link: '/en/devOps/docker/resumeDockerCommand'
+                    },
+                    {
+                      text: 'Docker images',
+                      link: '/en/devOps/docker/imageDocker'
                     }
                   ]
                 },

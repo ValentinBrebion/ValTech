@@ -195,6 +195,14 @@ function frSidebar(): DefaultTheme.SidebarItem[] {
                     {
                       text: 'Docker Compose',
                       link: 'devOps/docker/ComposeDocker'
+                    },
+                    {
+                      text: 'Résumé des commandes',
+                      link: 'devOps/docker/resumeDockerCommand'
+                    },
+                    {
+                      text: 'Les images Docker',
+                      link: 'devOps/docker/imageDocker'
                     }
                   ]
                 },
