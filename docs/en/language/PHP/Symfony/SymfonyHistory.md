@@ -3,8 +3,8 @@ next:
     text: 'Symfony Installation'
     link: 'en/language/PHP/Symfony/SymfonyInstallation'
 prev: 
-    text: 'API'
-    link: 'en/language/PHP/API'
+    text: 'API course'
+    link: 'en/language/PHP/API/APIcourse'
 ---
 # Introduction to Symfony
 
