@@ -3,8 +3,8 @@ next:
     text: 'Histoire de Symfony'
     link: 'fr/language/PHP/Symfony/SymfonyHistory'
 prev: 
-    text: 'Cours API'
-    link: 'fr/language/PHP/API/APIcourse'
+    text: 'POO'
+    link: 'fr/language/PHP/POOandSolid'
 ---
 
 # Les API
