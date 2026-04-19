@@ -1,7 +1,7 @@
 ---
 next:
-    text: 'API'
-    link: 'fr/language/PHP/API/introductionHistory'
+    text: 'POO et SOLID'
+    link: 'fr/language/PHP/POOandSolid'
 prev: 
     text: 'Découverte de Laravel'
     link: 'fr/language/PHP/Laravel/Laravel'
