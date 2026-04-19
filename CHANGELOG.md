@@ -1,4 +1,8 @@
-# [2.1.0]()(2025-07-20)
+# [2.2.0]()(2026-04-19)
+### Content
+- Ajout cours POO et principe SOLID
+
+# [2.1.0](https://github.com/ValentinBrebion/ValTech/commit/b2c011c76de5becafeb1e7f59cdb14f5da7bfc10)(2025-07-20)
 ### Content
 - Ajout cours Docker
 - Ajout cours SQL

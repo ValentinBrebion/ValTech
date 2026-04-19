@@ -20,7 +20,7 @@ features:
   - icon: 💡  
     title: Dernières actualités
     details: Jetez un coup d'oeil au tout dernier article mis en ligne, n'ayez pas peur et cliquez !
-    link: '/fr/language/HTML/HTMLConfiguration'
+    link: '/fr/language/PHP/POOandSolid'
   - icon: 👀  
     title: Curiosité
     details: La curiosité pour un développeur est un élément essentiel pour son évolution. Des devtools seront mis en ligne par catégories.
@@ -38,16 +38,13 @@ import { ref } from 'vue';
 import { VPTeamPage } from 'vitepress/theme';
 import informations from '../TechInfo'
 
-// Création d'une référence réactive pour stocker l'information aléatoire
 const randomInformation = ref(getRandomInformation());
 
-// Fonction pour obtenir un objet aléatoire
 function getRandomInformation() {
   const randomIndex = Math.floor(Math.random() * informations.length);
   return informations[randomIndex];
 }
 
-// Fonction pour changer l'information affichée
 function changeInformation() {
   randomInformation.value = getRandomInformation();
 }
@@ -66,7 +63,9 @@ function changeInformation() {
     </section>
   </VPTeamPage>
 
-  <style scoped>
+  <Badge class="feature-badge-overlay badge-success" text="Nouvel article: 19/04/2026" />
+
+<style scoped>
   .textcenter {
     text-align: center;
   }
@@ -75,4 +74,14 @@ function changeInformation() {
     padding: 2px 20px; 
     border-radius: 0.5rem;
   }
-  </style>
+ 
+.feature-badge-overlay {
+  position: absolute;
+  margin-top: -40rem;
+  margin-left: 6.2rem;
+}
+.badge-success {
+  background-color: green;
+  color: white;
+}
+</style>
