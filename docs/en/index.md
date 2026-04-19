@@ -17,7 +17,7 @@ features:
   - icon: 💡 
     title: Complete Documentation
     details: Take a look at the latest article posted online, don't be afraid and click!
-    link: '/en/language/HTML/HTMLConfiguration'
+    link: '/en/language/PHP/POOandSOLID'
   - icon: 👀  
     title: Curiosity
     details: Curiosity is essential for a developer's evolution. Devtools will be posted by categories.
@@ -29,3 +29,18 @@ features:
     details: The Internet is vast... and limitations must be put in place to regulate its use and protect users.
     link: '/en/laws/definitions/preuveElectronique'
 --- 
+
+<Badge class="feature-badge-overlay badge-success" text="Nouvel article: 19/04/2026" />
+
+<style scoped>
+
+.feature-badge-overlay {
+  position: absolute;
+  margin-top: -15rem;
+  margin-left: 6.2rem;
+}
+.badge-success {
+  background-color: green;
+  color: white;
+}
+</style>
